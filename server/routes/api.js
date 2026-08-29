@@ -129,8 +129,8 @@ async function studentView(s) {
 
   const placedCompany = s.placedCompanyId
     ? await Company.findById(s.placedCompanyId)
-        .select("name")
-        .lean()
+      .select("name")
+      .lean()
     : null;
 
   return {
@@ -180,7 +180,7 @@ async function studentView(s) {
         (a, b) =>
           (a.day || 0) - (b.day || 0) ||
           (a.startMinute || 0) -
-            (b.startMinute || 0)
+          (b.startMinute || 0)
       )
       .map(x => {
         const panel = (
@@ -225,8 +225,8 @@ async function studentView(s) {
             x.status === "scheduled"
               ? "Scheduled"
               : x.status === "withdrawn"
-              ? "Withdrawn"
-              : "Cancelled"
+                ? "Withdrawn"
+                : "Cancelled"
         };
       })
   };
@@ -278,23 +278,23 @@ async function scheduleStats() {
   const scheduledPct =
     activeShortlists
       ? Number(
-          (
-            (scheduled /
-              activeShortlists) *
-            100
-          ).toFixed(1)
-        )
+        (
+          (scheduled /
+            activeShortlists) *
+          100
+        ).toFixed(1)
+      )
       : 0;
 
   const unscheduledPct =
     activeShortlists
       ? Number(
-          (
-            (unscheduled /
-              activeShortlists) *
-            100
-          ).toFixed(1)
-        )
+        (
+          (unscheduled /
+            activeShortlists) *
+          100
+        ).toFixed(1)
+      )
       : 0;
 
   /* =======================================================
@@ -368,9 +368,9 @@ async function scheduleStats() {
   averageWaitingMinutes =
     waitingSamples
       ? Math.round(
-          averageWaitingMinutes /
-            waitingSamples
-        )
+        averageWaitingMinutes /
+        waitingSamples
+      )
       : 0;
 
   /* =======================================================
@@ -392,10 +392,10 @@ async function scheduleStats() {
   const roomUtilisation =
     rooms.length
       ? Math.round(
-          (availableRooms /
-            rooms.length) *
-            100
-        )
+        (availableRooms /
+          rooms.length) *
+        100
+      )
       : 0;
 
   /* =======================================================
@@ -414,12 +414,12 @@ async function scheduleStats() {
   const replanChurn =
     scheduled
       ? Number(
-          (
-            (movedTotal /
-              scheduled) *
-            100
-          ).toFixed(1)
-        )
+        (
+          (movedTotal /
+            scheduled) *
+          100
+        ).toFixed(1)
+      )
       : 0;
 
   /* =======================================================
@@ -480,7 +480,7 @@ async function scheduleStats() {
           100,
           Number(
             room?.maxCandidatesPerDay ||
-              room?.capacity
+            room?.capacity
           ) || 100
         )
       );
@@ -563,9 +563,9 @@ async function scheduleStats() {
       arr.some(
         a =>
           a.startMinute <
-            x.endMinute &&
+          x.endMinute &&
           x.startMinute <
-            a.endMinute
+          a.endMinute
       )
     ) {
       panelConflicts++;
@@ -806,9 +806,9 @@ router.post(
         const pct =
           data.shortlists
             ? (
-                result.scheduled.length /
-                data.shortlists
-              ) * 100
+              result.scheduled.length /
+              data.shortlists
+            ) * 100
             : 0;
 
         if (
@@ -822,9 +822,9 @@ router.post(
       const finalPct =
         data.shortlists
           ? (
-              result.scheduled.length /
-              data.shortlists
-            ) * 100
+            result.scheduled.length /
+            data.shortlists
+          ) * 100
           : 0;
 
       if (
@@ -995,40 +995,40 @@ router.get(
 
       const filter = q
         ? {
-            $or: [
-              {
-                name: {
-                  $regex: q,
-                  $options: "i"
-                }
-              },
-              {
-                studentCode: {
-                  $regex: q,
-                  $options: "i"
-                }
-              },
-              {
-                branch: {
-                  $regex: q,
-                  $options: "i"
-                }
-              },
-              {
-                status: {
-                  $regex: q,
-                  $options: "i"
-                }
+          $or: [
+            {
+              name: {
+                $regex: q,
+                $options: "i"
               }
-            ]
-          }
+            },
+            {
+              studentCode: {
+                $regex: q,
+                $options: "i"
+              }
+            },
+            {
+              branch: {
+                $regex: q,
+                $options: "i"
+              }
+            },
+            {
+              status: {
+                $regex: q,
+                $options: "i"
+              }
+            }
+          ]
+        }
         : {};
 
       const limit =
         Math.min(
           Number(
             req.query.limit ||
-              800
+            800
           ),
           800
         );
@@ -1145,7 +1145,7 @@ router.get(
         if (
           row.studentId.status &&
           row.studentId.status !==
-            "Eligible"
+          "Eligible"
         ) {
           continue;
         }
@@ -1355,7 +1355,7 @@ router.post(
       if (
         status === "Placed" ||
         status ===
-          "Withdrawn + Placed"
+        "Withdrawn + Placed"
       ) {
         if (!companyId) {
           return res
@@ -1423,13 +1423,13 @@ router.post(
 
         const newStatus =
           status ===
-          "Withdrawn + Placed"
+            "Withdrawn + Placed"
             ? "withdrawn"
             : "cancelled";
 
         const reason =
           status ===
-          "Withdrawn + Placed"
+            "Withdrawn + Placed"
             ? "Student withdrew after receiving an offer; remaining interviews cancelled."
             : `Student placed with ${company.name}; remaining interviews cancelled.`;
 
@@ -1513,7 +1513,7 @@ router.post(
             Math.max(
               0,
               scheduleBefore.length -
-                1
+              1
             )
         });
 
@@ -1556,7 +1556,7 @@ router.post(
         return res.json({
           message:
             status ===
-            "Withdrawn + Placed"
+              "Withdrawn + Placed"
               ? `Great! Your placement has been recorded. Company: ${company.name}. Status: Withdrawn + Placed. Remaining interviews have been withdrawn.`
               : `${s.studentCode} | ${s.name}: ${old} → Placed at ${company.name}. ${affected} remaining interview(s) cancelled and the schedule was rebuilt.`,
 
@@ -1646,7 +1646,7 @@ router.post(
       if (
         status !== "Placed" &&
         status !==
-          "Withdrawn + Placed"
+        "Withdrawn + Placed"
       ) {
         s.placedCompanyId =
           null;
@@ -1930,23 +1930,23 @@ async function roomAction(
 
   const affected =
     status ===
-    "unavailable"
+      "unavailable"
       ? await Interview.find({
-          roomId:
-            room._id,
+        roomId:
+          room._id,
 
-          status:
-            "scheduled"
-        })
-          .populate(
-            "studentId",
-            "studentCode name"
-          )
-          .populate(
-            "companyId",
-            "name panelDetails"
-          )
-          .lean()
+        status:
+          "scheduled"
+      })
+        .populate(
+          "studentId",
+          "studentCode name"
+        )
+        .populate(
+          "companyId",
+          "name panelDetails"
+        )
+        .lean()
       : [];
 
   room.status =
@@ -1956,7 +1956,7 @@ async function roomAction(
 
   if (
     status ===
-      "unavailable" &&
+    "unavailable" &&
     affected.length
   ) {
     await Interview.updateMany(
@@ -2008,15 +2008,15 @@ async function roomAction(
               String(
                 y.studentId?._id
               ) ===
-                String(
-                  a.studentId?._id
-                ) &&
+              String(
+                a.studentId?._id
+              ) &&
               String(
                 y.companyId?._id
               ) ===
-                String(
-                  a.companyId?._id
-                )
+              String(
+                a.companyId?._id
+              )
           );
 
         if (!x) {
@@ -2065,9 +2065,8 @@ async function roomAction(
 
         if (roomChanged) {
           reasons.push(
-            `The interview was moved to ${
-              x.roomId?.name ||
-              "another available room"
+            `The interview was moved to ${x.roomId?.name ||
+            "another available room"
             } to maintain schedule availability.`
           );
         }
@@ -2138,22 +2137,17 @@ async function roomAction(
           message:
             `${a.studentId?.studentCode} ${a.studentId?.name} → ${a.companyId?.name}: ${minutes(
               a.startMinute
-            )} ${room.name} Panel ${
-              a.panel
-            } (${
-              fromPanel?.interviewers?.join(
-                " + "
-              ) || "—"
+            )} ${room.name} Panel ${a.panel
+            } (${fromPanel?.interviewers?.join(
+              " + "
+            ) || "—"
             }) → ${minutes(
               x.startMinute
-            )} ${
-              x.roomId?.name
-            } Panel ${
-              x.panel
-            } (${
-              toPanel?.interviewers?.join(
-                " + "
-              ) || "—"
+            )} ${x.roomId?.name
+            } Panel ${x.panel
+            } (${toPanel?.interviewers?.join(
+              " + "
+            ) || "—"
             }). ${reasons.join(
               " "
             )}`
@@ -2186,19 +2180,19 @@ async function roomAction(
     Math.max(
       0,
       affected.length -
-        rescheduled
+      rescheduled
     );
 
   const recovered =
     Math.max(
       0,
       after.scheduled -
-        before.scheduled
+      before.scheduled
     );
 
   const message =
     status ===
-    "unavailable"
+      "unavailable"
       ? `${room.name} was taken out of service. ${affected.length} appointment(s) were affected; ${rescheduled} were successfully reassigned and ${cannot} could not be placed.`
       : `${room.name} was returned to service. The scheduler reviewed the waiting interview queue and assigned ${recovered} appointment(s) to available capacity.`;
 
@@ -2210,19 +2204,19 @@ async function roomAction(
 
     affectedCount:
       status ===
-      "unavailable"
+        "unavailable"
         ? affected.length
         : recovered,
 
     rescheduledCount:
       status ===
-      "unavailable"
+        "unavailable"
         ? rescheduled
         : recovered,
 
     cannotRescheduleCount:
       status ===
-      "unavailable"
+        "unavailable"
         ? cannot
         : 0,
 
@@ -2231,7 +2225,7 @@ async function roomAction(
 
     movedCount:
       status ===
-      "unavailable"
+        "unavailable"
         ? rescheduled
         : recovered,
 
@@ -2373,8 +2367,8 @@ router.get(
       const day =
         req.query.day
           ? Number(
-              req.query.day
-            )
+            req.query.day
+          )
           : null;
 
       const q =
@@ -2385,9 +2379,9 @@ router.get(
       let result =
         day
           ? rows.filter(
-              x =>
-                x.day === day
-            )
+            x =>
+              x.day === day
+          )
           : rows;
 
       if (q) {
@@ -2412,7 +2406,7 @@ router.get(
           0,
           Number(
             req.query.limit ||
-              10000
+            10000
           )
         )
       );
@@ -2478,20 +2472,20 @@ async function enforceDisruptionCount(
           x =>
             String(
               x.studentId?._id ||
-                x.studentId
+              x.studentId
             ) ===
-              String(
-                a.studentId?._id ||
-                  a.studentId
-              ) &&
+            String(
+              a.studentId?._id ||
+              a.studentId
+            ) &&
             String(
               x.companyId?._id ||
-                x.companyId
+              x.companyId
             ) ===
-              String(
-                a.companyId?._id ||
-                  a.companyId
-              )
+            String(
+              a.companyId?._id ||
+              a.companyId
+            )
         )
     );
 
@@ -2502,14 +2496,14 @@ async function enforceDisruptionCount(
     Math.max(
       0,
       affected.length -
-        successful
+      successful
     );
 
   const expectedScheduled =
     Math.max(
       0,
       beforeScheduledCount -
-        cannot
+      cannot
     );
 
   /*
@@ -2565,20 +2559,20 @@ async function enforceDisruptionCount(
               a =>
                 String(
                   a.studentId?._id ||
-                    a.studentId
+                  a.studentId
                 ) ===
-                  String(
-                    x.studentId?._id ||
-                      x.studentId
-                  ) &&
+                String(
+                  x.studentId?._id ||
+                  x.studentId
+                ) &&
                 String(
                   a.companyId?._id ||
-                    a.companyId
+                  a.companyId
                 ) ===
-                  String(
-                    x.companyId?._id ||
-                      x.companyId
-                  )
+                String(
+                  x.companyId?._id ||
+                  x.companyId
+                )
             )
         );
 
@@ -2688,7 +2682,7 @@ async function enforceDisruptionCount(
         (
           await activeShortlistCount()
         ) -
-          finalRows.length
+        finalRows.length
       )
   };
 }
@@ -2893,15 +2887,15 @@ router.post(
           if (
             b.day !== x.day ||
             b.startMinute !==
-              x.startMinute ||
+            x.startMinute ||
             String(
               b.roomId?._id
             ) !==
-              String(
-                x.roomId?._id
-              ) ||
+            String(
+              x.roomId?._id
+            ) ||
             b.panel !==
-              x.panel
+            x.panel
           ) {
             moved.push({
               studentCode:
@@ -2955,14 +2949,11 @@ router.post(
               message:
                 `${x.studentId?.studentCode} ${x.studentId?.name} → ${x.companyId?.name}: ${minutes(
                   b.startMinute
-                )} ${b.roomId?.name} Panel ${
-                  b.panel
+                )} ${b.roomId?.name} Panel ${b.panel
                 } → ${minutes(
                   x.startMinute
-                )} ${
-                  x.roomId?.name
-                } Panel ${
-                  x.panel
+                )} ${x.roomId?.name
+                } Panel ${x.panel
                 }. Interview rescheduled successfully.`
             });
           }
@@ -3076,7 +3067,7 @@ router.post(
         if (
           p < 1 ||
           p >
-            company.panels
+          company.panels
         ) {
           return res
             .status(400)
@@ -3183,11 +3174,10 @@ router.post(
         }
 
         details.push(
-          `${company.name} Panel ${p} dropped out. Assigned interviewers: ${
-            info?.interviewers?.join(
-              " + "
-            ) ||
-            "Not recorded"
+          `${company.name} Panel ${p} dropped out. Assigned interviewers: ${info?.interviewers?.join(
+            " + "
+          ) ||
+          "Not recorded"
           }.`
         );
 
@@ -3254,15 +3244,15 @@ router.post(
           if (
             b.day !== x.day ||
             b.startMinute !==
-              x.startMinute ||
+            x.startMinute ||
             String(
               b.roomId?._id
             ) !==
-              String(
-                x.roomId?._id
-              ) ||
+            String(
+              x.roomId?._id
+            ) ||
             b.panel !==
-              x.panel
+            x.panel
           ) {
             moved.push({
               studentCode:
@@ -3316,25 +3306,21 @@ router.post(
               message:
                 `${x.studentId?.studentCode} ${x.studentId?.name} → ${x.companyId?.name}: ${minutes(
                   b.startMinute
-                )} ${b.roomId?.name} Panel ${
-                  b.panel
+                )} ${b.roomId?.name} Panel ${b.panel
                 } → ${minutes(
                   x.startMinute
-                )} ${
-                  x.roomId?.name
-                } Panel ${
-                  x.panel
+                )} ${x.roomId?.name
+                } Panel ${x.panel
                 }. Interview rescheduled successfully.`
             });
           }
         }
 
         const resultMessage =
-          `${company.name} Panel ${p} dropped out. Assigned interviewers: ${
-            info?.interviewers?.join(
-              " + "
-            ) ||
-            "Not recorded"
+          `${company.name} Panel ${p} dropped out. Assigned interviewers: ${info?.interviewers?.join(
+            " + "
+          ) ||
+          "Not recorded"
           }. ${affected.length} students/interviews affected. ${countResult.successful} students successfully rescheduled. ${countResult.cannot} students could not be rescheduled.`;
 
         details.push(
@@ -3418,430 +3404,986 @@ router.post(
          STUDENT WITHDRAWAL
       ===================================================== */
 
-      if (
-        type ===
-        "student_withdrawal"
-      ) {
-        student =
-          await Student.findById(
-            id
-          );
+      // if (
+      //   type ===
+      //   "student_withdrawal"
+      // ) {
+      //   student =
+      //     await Student.findById(
+      //       id
+      //     );
 
-        if (!student) {
-          return res
-            .status(404)
-            .json({
-              message:
-                "Student not found."
-            });
+      //   if (!student) {
+      //     return res
+      //       .status(404)
+      //       .json({
+      //         message:
+      //           "Student not found."
+      //       });
+      //   }
+
+      //   const withdrawalMode =
+      //     req.body
+      //       .withdrawalMode ||
+      //     "withdrawn";
+
+      //   const offeredCompanyId =
+      //     req.body.companyId;
+
+      //   /*
+      //     WITHDRAWN + PLACED
+      //   */
+
+      //   if (
+      //     withdrawalMode ===
+      //     "withdrawn_placed"
+      //   ) {
+      //     if (
+      //       !offeredCompanyId
+      //     ) {
+      //       return res
+      //         .status(400)
+      //         .json({
+      //           message:
+      //             "Select the company in which the student received the offer."
+      //         });
+      //     }
+
+      //     const shortlisted =
+      //       await Shortlist.exists({
+      //         studentId: id,
+
+      //         companyId:
+      //           offeredCompanyId
+      //       });
+
+      //     if (!shortlisted) {
+      //       return res
+      //         .status(400)
+      //         .json({
+      //           message:
+      //             "The selected company must be one of the student's shortlisted companies."
+      //         });
+      //     }
+
+      //     const scheduledOffer =
+      //       await Interview.exists({
+      //         studentId: id,
+
+      //         companyId:
+      //           offeredCompanyId,
+
+      //         status:
+      //           "scheduled"
+      //       });
+
+      //     if (!scheduledOffer) {
+      //       return res
+      //         .status(400)
+      //         .json({
+      //           message:
+      //             "That shortlisted company has no scheduled interview for this student."
+      //         });
+      //     }
+
+      //     placedCompany =
+      //       await Company.findById(
+      //         offeredCompanyId
+      //       ).select(
+      //         "name"
+      //       );
+
+      //     if (
+      //       !placedCompany
+      //     ) {
+      //       return res
+      //         .status(404)
+      //         .json({
+      //           message:
+      //             "Selected company not found."
+      //         });
+      //     }
+      //   }
+
+      //   const attendedOrOfferedCompanyId =
+      //     offeredCompanyId ||
+      //     null;
+
+      //   /*
+      //     Determine all remaining
+      //     scheduled interviews.
+      //   */
+
+      //   const withdrawalQuery = {
+      //     studentId: id,
+
+      //     status:
+      //       "scheduled",
+
+      //     ...(attendedOrOfferedCompanyId
+      //       ? {
+      //           companyId: {
+      //             $ne:
+      //               attendedOrOfferedCompanyId
+      //           }
+      //         }
+      //       : {})
+      //   };
+
+      //   affected =
+      //     await Interview.find(
+      //       withdrawalQuery
+      //     )
+      //       .populate(
+      //         "companyId",
+      //         "name"
+      //       )
+      //       .populate(
+      //         "roomId",
+      //         "name"
+      //       )
+      //       .lean();
+
+      //   const withdrawalShortlists =
+      //     await Shortlist.find({
+      //       studentId: id
+      //     })
+      //       .populate(
+      //         "companyId",
+      //         "name"
+      //       )
+      //       .lean();
+
+      //   const withdrawalNames =
+      //     withdrawalShortlists
+      //       .map(
+      //         x =>
+      //           x.companyId?.name
+      //       )
+      //       .filter(Boolean);
+
+      //   if (
+      //     withdrawalNames.length
+      //   ) {
+      //     student.shortlistedCompanySnapshot =
+      //       [
+      //         ...new Set([
+      //           ...(student.shortlistedCompanySnapshot ||
+      //             []),
+
+      //           ...withdrawalNames
+      //         ])
+      //       ];
+      //   }
+
+      //   student.status =
+      //     withdrawalMode ===
+      //     "withdrawn_placed"
+      //       ? "Withdrawn + Placed"
+      //       : "Withdrawn";
+
+      //   student.placedCompanyId =
+      //     placedCompany?._id ||
+      //     null;
+
+      //   await student.save();
+
+      //   const reason =
+      //     withdrawalMode ===
+      //     "withdrawn_placed"
+      //       ? "Student received an offer and withdrew from remaining interviews."
+      //       : "Student withdrew from placement.";
+
+      //   if (affected.length) {
+      //     await Interview.updateMany(
+      //       withdrawalQuery,
+      //       {
+      //         $set: {
+      //           status:
+      //             "withdrawn",
+
+      //           cancellationReason:
+      //             reason
+      //         }
+      //       }
+      //     );
+      //   }
+
+      //   await Shortlist.deleteMany({
+      //     studentId: id
+      //   });
+
+      //   const withdrawalReleasedSlots =
+      //     affected.map(
+      //       x => ({
+      //         studentId:
+      //           x.studentId,
+
+      //         companyId:
+      //           x.companyId,
+
+      //         roomId:
+      //           x.roomId,
+
+      //         day:
+      //           x.day,
+
+      //         panel:
+      //           x.panel,
+
+      //         startMinute:
+      //           x.startMinute,
+
+      //         endMinute:
+      //           x.endMinute
+      //       })
+      //     );
+
+      //   await buildSchedule({
+      //     releasedSlots:
+      //       withdrawalReleasedSlots,
+
+      //     minimumTargetCount:
+      //       beforeStats.scheduled
+      //   });
+
+      //   const after =
+      //     await getSchedule();
+
+      //   const afterStats =
+      //     await scheduleStats();
+
+      //   const beforePairs =
+      //     new Set(
+      //       before.map(
+      //         x =>
+      //           `${x.studentId?._id}-${x.companyId?._id}`
+      //       )
+      //     );
+
+      //   const moved = [];
+
+      //   for (
+      //     const x of after
+      //   ) {
+      //     const key =
+      //       `${x.studentId?._id}-${x.companyId?._id}`;
+
+      //     const b =
+      //       beforePairs.has(
+      //         key
+      //       )
+      //         ? before.find(
+      //             y =>
+      //               `${y.studentId?._id}-${y.companyId?._id}` ===
+      //               key
+      //           )
+      //         : null;
+
+      //     if (
+      //       !b
+      //     ) {
+      //       continue;
+      //     }
+
+      //     if (
+      //       b.day !== x.day ||
+      //       b.startMinute !==
+      //         x.startMinute ||
+      //       String(
+      //         b.roomId?._id
+      //       ) !==
+      //         String(
+      //           x.roomId?._id
+      //         ) ||
+      //       b.panel !==
+      //         x.panel
+      //     ) {
+      //       moved.push({
+      //         studentCode:
+      //           x.studentId
+      //             ?.studentCode,
+
+      //         student:
+      //           x.studentId
+      //             ?.name,
+
+      //         company:
+      //           x.companyId
+      //             ?.name,
+
+      //         from: {
+      //           day:
+      //             b.day,
+
+      //           startMinute:
+      //             b.startMinute,
+
+      //           endMinute:
+      //             b.endMinute,
+
+      //           room:
+      //             b.roomId
+      //               ?.name,
+
+      //           panel:
+      //             b.panel
+      //         },
+
+      //         to: {
+      //           day:
+      //             x.day,
+
+      //           startMinute:
+      //             x.startMinute,
+
+      //           endMinute:
+      //             x.endMinute,
+
+      //           room:
+      //             x.roomId
+      //               ?.name,
+
+      //           panel:
+      //             x.panel
+      //         }
+      //       });
+      //     }
+      //   }
+
+      //   const resultMessage =
+      //     withdrawalMode ===
+      //     "withdrawn_placed"
+      //       ? `${student.studentCode} | ${student.name} changed to Withdrawn + Placed with ${placedCompany.name}. ${affected.length} remaining interview(s) were withdrawn. Released capacity was reconsidered.`
+      //       : `${student.studentCode} | ${student.name} changed to Withdrawn. ${affected.length} scheduled interview(s) were withdrawn. Released capacity was reconsidered.`;
+
+      //   const record =
+      //     await Disruption.create({
+      //       type,
+
+      //       studentId:
+      //         student._id,
+
+      //       affectedCount:
+      //         affected.length,
+
+      //       movedCount:
+      //         moved.length,
+
+      //       unscheduledCount:
+      //         afterStats.unscheduled,
+
+      //       summary:
+      //         resultMessage,
+
+      //       details: [
+      //         resultMessage
+      //       ]
+      //     });
+
+      //   return res.json({
+      //     message:
+      //       resultMessage,
+
+      //     affectedCount:
+      //       affected.length,
+
+      //     movedCount:
+      //       moved.length,
+
+      //     scheduledBefore:
+      //       beforeStats.scheduled,
+
+      //     scheduledAfter:
+      //       afterStats.scheduled,
+
+      //     unscheduledBefore:
+      //       beforeStats.unscheduled,
+
+      //     unscheduledAfter:
+      //       afterStats.unscheduled,
+
+      //     unscheduledCount:
+      //       afterStats.unscheduled,
+
+      //     moved:
+      //       moved.slice(
+      //         0,
+      //         300
+      //       ),
+
+      //     details: [
+      //       resultMessage
+      //     ],
+
+      //     disruption:
+      //       record,
+
+      //     status:
+      //       student.status,
+
+      //     placedCompany:
+      //       placedCompany?.name ||
+      //       undefined
+      //   });
+      // }
+     if (type === "student_withdrawal") {
+  student = await Student.findById(id);
+
+  if (!student) {
+    return res.status(404).json({
+      message: "Student not found."
+    });
+  }
+
+  const withdrawalMode =
+    req.body.withdrawalMode || "withdrawn";
+
+  const offeredCompanyId =
+    req.body.companyId;
+
+  /*
+   * =========================================================
+   * WITHDRAWN + PLACED
+   * =========================================================
+   */
+
+  if (withdrawalMode === "withdrawn_placed") {
+    if (!offeredCompanyId) {
+      return res.status(400).json({
+        message:
+          "Select the company in which the student received the offer."
+      });
+    }
+
+    const shortlisted = await Shortlist.exists({
+      studentId: id,
+      companyId: offeredCompanyId
+    });
+
+    if (!shortlisted) {
+      return res.status(400).json({
+        message:
+          "The selected company must be one of the student's shortlisted companies."
+      });
+    }
+
+    const scheduledOffer = await Interview.exists({
+      studentId: id,
+      companyId: offeredCompanyId,
+      status: "scheduled"
+    });
+
+    if (!scheduledOffer) {
+      return res.status(400).json({
+        message:
+          "That shortlisted company has no scheduled interview for this student."
+      });
+    }
+
+    placedCompany = await Company.findById(
+      offeredCompanyId
+    ).select("name");
+
+    if (!placedCompany) {
+      return res.status(404).json({
+        message: "Selected company not found."
+      });
+    }
+  }
+
+  /*
+   * =========================================================
+   * SAVE CURRENT SCHEDULE BEFORE WITHDRAWAL
+   * =========================================================
+   *
+   * This is important because we need to compare the schedule
+   * before and after the replacement process.
+   */
+
+  const before = await getSchedule();
+
+  const beforeStats = await scheduleStats();
+
+  /*
+   * =========================================================
+   * FIND ALL SCHEDULED INTERVIEWS THAT MUST BE RELEASED
+   * =========================================================
+   *
+   * If the student is placed with Company A:
+   *
+   *   A = kept
+   *   B = cancelled
+   *   C = cancelled
+   *   D = cancelled
+   *
+   * If normal withdrawal:
+   *
+   *   A = cancelled
+   *   B = cancelled
+   *   C = cancelled
+   */
+
+  const keptCompanyId =
+    offeredCompanyId || null;
+
+  const withdrawalQuery = {
+    studentId: id,
+    status: "scheduled",
+
+    ...(keptCompanyId
+      ? {
+          companyId: {
+            $ne: keptCompanyId
+          }
         }
+      : {})
+  };
 
-        const withdrawalMode =
-          req.body
-            .withdrawalMode ||
-          "withdrawn";
+  affected = await Interview.find(
+    withdrawalQuery
+  )
+    .populate("companyId", "name")
+    .populate("roomId", "name")
+    .lean();
 
-        const offeredCompanyId =
-          req.body.companyId;
+  /*
+   * =========================================================
+   * SAVE SHORTLIST COMPANY NAMES
+   * =========================================================
+   */
 
-        /*
-          WITHDRAWN + PLACED
-        */
+  const withdrawalShortlists =
+    await Shortlist.find({
+      studentId: id
+    })
+      .populate("companyId", "name")
+      .lean();
 
-        if (
-          withdrawalMode ===
-          "withdrawn_placed"
-        ) {
-          if (
-            !offeredCompanyId
-          ) {
-            return res
-              .status(400)
-              .json({
-                message:
-                  "Select the company in which the student received the offer."
-              });
-          }
+  const withdrawalNames =
+    withdrawalShortlists
+      .map(x => x.companyId?.name)
+      .filter(Boolean);
 
-          const shortlisted =
-            await Shortlist.exists({
-              studentId: id,
+  if (withdrawalNames.length) {
+    student.shortlistedCompanySnapshot = [
+      ...new Set([
+        ...(student.shortlistedCompanySnapshot || []),
+        ...withdrawalNames
+      ])
+    ];
+  }
 
-              companyId:
-                offeredCompanyId
-            });
+  /*
+   * =========================================================
+   * UPDATE STUDENT STATUS
+   * =========================================================
+   */
 
-          if (!shortlisted) {
-            return res
-              .status(400)
-              .json({
-                message:
-                  "The selected company must be one of the student's shortlisted companies."
-              });
-          }
+  student.status =
+    withdrawalMode === "withdrawn_placed"
+      ? "Withdrawn + Placed"
+      : "Withdrawn";
 
-          const scheduledOffer =
-            await Interview.exists({
-              studentId: id,
+  student.placedCompanyId =
+    placedCompany?._id || null;
 
-              companyId:
-                offeredCompanyId,
+  await student.save();
 
-              status:
-                "scheduled"
-            });
+  /*
+   * =========================================================
+   * CANCEL REMAINING INTERVIEWS
+   * =========================================================
+   */
 
-          if (!scheduledOffer) {
-            return res
-              .status(400)
-              .json({
-                message:
-                  "That shortlisted company has no scheduled interview for this student."
-              });
-          }
+  const reason =
+    withdrawalMode === "withdrawn_placed"
+      ? "Student received an offer and withdrew from remaining interviews."
+      : "Student withdrew from placement.";
 
-          placedCompany =
-            await Company.findById(
-              offeredCompanyId
-            ).select(
-              "name"
-            );
-
-          if (
-            !placedCompany
-          ) {
-            return res
-              .status(404)
-              .json({
-                message:
-                  "Selected company not found."
-              });
-          }
+  if (affected.length) {
+    await Interview.updateMany(
+      withdrawalQuery,
+      {
+        $set: {
+          status: "withdrawn",
+          cancellationReason: reason
         }
-
-        const attendedOrOfferedCompanyId =
-          offeredCompanyId ||
-          null;
-
-        /*
-          Determine all remaining
-          scheduled interviews.
-        */
-
-        const withdrawalQuery = {
-          studentId: id,
-
-          status:
-            "scheduled",
-
-          ...(attendedOrOfferedCompanyId
-            ? {
-                companyId: {
-                  $ne:
-                    attendedOrOfferedCompanyId
-                }
-              }
-            : {})
-        };
-
-        affected =
-          await Interview.find(
-            withdrawalQuery
-          )
-            .populate(
-              "companyId",
-              "name"
-            )
-            .populate(
-              "roomId",
-              "name"
-            )
-            .lean();
-
-        const withdrawalShortlists =
-          await Shortlist.find({
-            studentId: id
-          })
-            .populate(
-              "companyId",
-              "name"
-            )
-            .lean();
-
-        const withdrawalNames =
-          withdrawalShortlists
-            .map(
-              x =>
-                x.companyId?.name
-            )
-            .filter(Boolean);
-
-        if (
-          withdrawalNames.length
-        ) {
-          student.shortlistedCompanySnapshot =
-            [
-              ...new Set([
-                ...(student.shortlistedCompanySnapshot ||
-                  []),
-
-                ...withdrawalNames
-              ])
-            ];
-        }
-
-        student.status =
-          withdrawalMode ===
-          "withdrawn_placed"
-            ? "Withdrawn + Placed"
-            : "Withdrawn";
-
-        student.placedCompanyId =
-          placedCompany?._id ||
-          null;
-
-        await student.save();
-
-        const reason =
-          withdrawalMode ===
-          "withdrawn_placed"
-            ? "Student received an offer and withdrew from remaining interviews."
-            : "Student withdrew from placement.";
-
-        if (affected.length) {
-          await Interview.updateMany(
-            withdrawalQuery,
-            {
-              $set: {
-                status:
-                  "withdrawn",
-
-                cancellationReason:
-                  reason
-              }
-            }
-          );
-        }
-
-        await Shortlist.deleteMany({
-          studentId: id
-        });
-
-        const withdrawalReleasedSlots =
-          affected.map(
-            x => ({
-              studentId:
-                x.studentId,
-
-              companyId:
-                x.companyId,
-
-              roomId:
-                x.roomId,
-
-              day:
-                x.day,
-
-              panel:
-                x.panel,
-
-              startMinute:
-                x.startMinute,
-
-              endMinute:
-                x.endMinute
-            })
-          );
-
-        await buildSchedule({
-          releasedSlots:
-            withdrawalReleasedSlots,
-
-          minimumTargetCount:
-            beforeStats.scheduled
-        });
-
-        const after =
-          await getSchedule();
-
-        const afterStats =
-          await scheduleStats();
-
-        const beforePairs =
-          new Set(
-            before.map(
-              x =>
-                `${x.studentId?._id}-${x.companyId?._id}`
-            )
-          );
-
-        const moved = [];
-
-        for (
-          const x of after
-        ) {
-          const key =
-            `${x.studentId?._id}-${x.companyId?._id}`;
-
-          const b =
-            beforePairs.has(
-              key
-            )
-              ? before.find(
-                  y =>
-                    `${y.studentId?._id}-${y.companyId?._id}` ===
-                    key
-                )
-              : null;
-
-          if (
-            !b
-          ) {
-            continue;
-          }
-
-          if (
-            b.day !== x.day ||
-            b.startMinute !==
-              x.startMinute ||
-            String(
-              b.roomId?._id
-            ) !==
-              String(
-                x.roomId?._id
-              ) ||
-            b.panel !==
-              x.panel
-          ) {
-            moved.push({
-              studentCode:
-                x.studentId
-                  ?.studentCode,
-
-              student:
-                x.studentId
-                  ?.name,
-
-              company:
-                x.companyId
-                  ?.name,
-
-              from: {
-                day:
-                  b.day,
-
-                startMinute:
-                  b.startMinute,
-
-                endMinute:
-                  b.endMinute,
-
-                room:
-                  b.roomId
-                    ?.name,
-
-                panel:
-                  b.panel
-              },
-
-              to: {
-                day:
-                  x.day,
-
-                startMinute:
-                  x.startMinute,
-
-                endMinute:
-                  x.endMinute,
-
-                room:
-                  x.roomId
-                    ?.name,
-
-                panel:
-                  x.panel
-              }
-            });
-          }
-        }
-
-        const resultMessage =
-          withdrawalMode ===
-          "withdrawn_placed"
-            ? `${student.studentCode} | ${student.name} changed to Withdrawn + Placed with ${placedCompany.name}. ${affected.length} remaining interview(s) were withdrawn. Released capacity was reconsidered.`
-            : `${student.studentCode} | ${student.name} changed to Withdrawn. ${affected.length} scheduled interview(s) were withdrawn. Released capacity was reconsidered.`;
-
-        const record =
-          await Disruption.create({
-            type,
-
-            studentId:
-              student._id,
-
-            affectedCount:
-              affected.length,
-
-            movedCount:
-              moved.length,
-
-            unscheduledCount:
-              afterStats.unscheduled,
-
-            summary:
-              resultMessage,
-
-            details: [
-              resultMessage
-            ]
-          });
-
-        return res.json({
-          message:
-            resultMessage,
-
-          affectedCount:
-            affected.length,
-
-          movedCount:
-            moved.length,
-
-          scheduledBefore:
-            beforeStats.scheduled,
-
-          scheduledAfter:
-            afterStats.scheduled,
-
-          unscheduledBefore:
-            beforeStats.unscheduled,
-
-          unscheduledAfter:
-            afterStats.unscheduled,
-
-          unscheduledCount:
-            afterStats.unscheduled,
-
-          moved:
-            moved.slice(
-              0,
-              300
-            ),
-
-          details: [
-            resultMessage
-          ],
-
-          disruption:
-            record,
-
-          status:
-            student.status,
-
-          placedCompany:
-            placedCompany?.name ||
-            undefined
-        });
       }
+    );
+  }
 
+  /*
+   * =========================================================
+   * RELEASE THE EXACT INTERVIEW SLOTS
+   * =========================================================
+   *
+   * Example:
+   *
+   * Student E:
+   *
+   * A -> scheduled
+   * B -> scheduled
+   * C -> unscheduled
+   * D -> scheduled
+   *
+   * If E withdraws after receiving A:
+   *
+   * B slot -> released
+   * D slot -> released
+   *
+   * Those exact slots are sent to scheduler.js.
+   */
+
+  const withdrawalReleasedSlots =
+    affected.map(x => ({
+      studentId: x.studentId,
+      companyId: x.companyId,
+      roomId: x.roomId,
+      day: x.day,
+      panel: x.panel,
+      startMinute: x.startMinute,
+      endMinute: x.endMinute
+    }));
+
+  /*
+   * =========================================================
+   * REMOVE STUDENT FROM ACTIVE SHORTLIST
+   * =========================================================
+   */
+
+  await Shortlist.deleteMany({
+    studentId: id
+  });
+
+  /*
+   * =========================================================
+   * REBUILD USING RELEASED CAPACITY
+   * =========================================================
+   *
+   * scheduler.js receives the released slots and tries to
+   * give those exact appointments to other eligible students
+   * who are shortlisted for the same company.
+   */
+
+  await buildSchedule({
+    releasedSlots: withdrawalReleasedSlots,
+
+    /*
+     * Do not allow the withdrawal itself to reduce the normal
+     * scheduling target when replacement students are available.
+     */
+    minimumTargetCount: beforeStats.scheduled
+  });
+
+  /*
+   * =========================================================
+   * GET FINAL SCHEDULE
+   * =========================================================
+   */
+
+  const after = await getSchedule();
+
+  const afterStats = await scheduleStats();
+
+  /*
+   * =========================================================
+   * FIND MOVED / REPLACEMENT INTERVIEWS
+   * =========================================================
+   */
+
+  const beforeMap = new Map();
+
+  for (const x of before) {
+    const key =
+      `${x.studentId?._id}-${x.companyId?._id}`;
+
+    beforeMap.set(key, x);
+  }
+
+  /*
+   * Released appointment keys.
+   *
+   * These are the old student's appointments that became free.
+   */
+
+  const releasedKeys = new Set(
+    affected.map(x =>
+      `${x.studentId?._id}-${x.companyId?._id}`
+    )
+  );
+
+  /*
+   * Find newly created appointments.
+   *
+   * A replacement is an interview that:
+   *
+   * 1. belongs to another student
+   * 2. uses the same company
+   * 3. occupies one of the released slots
+   */
+
+  const replacements = [];
+
+  for (const x of after) {
+    const isNew =
+      !beforeMap.has(
+        `${x.studentId?._id}-${x.companyId?._id}`
+      );
+
+    if (!isNew) continue;
+
+    const replacement = affected.find(old =>
+      String(old.companyId?._id) ===
+        String(x.companyId?._id) &&
+      Number(old.day) === Number(x.day) &&
+      Number(old.startMinute) ===
+        Number(x.startMinute) &&
+      Number(old.endMinute) ===
+        Number(x.endMinute) &&
+      String(old.roomId?._id) ===
+        String(x.roomId?._id) &&
+      Number(old.panel) === Number(x.panel)
+    );
+
+    if (!replacement) continue;
+
+    replacements.push({
+      studentCode:
+        x.studentId?.studentCode,
+
+      student:
+        x.studentId?.name,
+
+      company:
+        x.companyId?.name,
+
+      day:
+        x.day,
+
+      startMinute:
+        x.startMinute,
+
+      endMinute:
+        x.endMinute,
+
+      room:
+        x.roomId?.name,
+
+      panel:
+        x.panel,
+
+      replacedStudentCode:
+        replacement.studentId?.studentCode,
+
+      replacedStudent:
+        replacement.studentId?.name
+    });
+  }
+
+  /*
+   * =========================================================
+   * FIND OTHER MOVED INTERVIEWS
+   * =========================================================
+   */
+
+  const moved = [];
+
+  for (const x of after) {
+    const key =
+      `${x.studentId?._id}-${x.companyId?._id}`;
+
+    const b = beforeMap.get(key);
+
+    if (!b) continue;
+
+    if (
+      Number(b.day) !== Number(x.day) ||
+      Number(b.startMinute) !==
+        Number(x.startMinute) ||
+      Number(b.endMinute) !==
+        Number(x.endMinute) ||
+      String(b.roomId?._id) !==
+        String(x.roomId?._id) ||
+      Number(b.panel) !== Number(x.panel)
+    ) {
+      moved.push({
+        studentCode:
+          x.studentId?.studentCode,
+
+        student:
+          x.studentId?.name,
+
+        company:
+          x.companyId?.name,
+
+        from: {
+          day: b.day,
+          startMinute: b.startMinute,
+          endMinute: b.endMinute,
+          room: b.roomId?.name,
+          panel: b.panel
+        },
+
+        to: {
+          day: x.day,
+          startMinute: x.startMinute,
+          endMinute: x.endMinute,
+          room: x.roomId?.name,
+          panel: x.panel
+        }
+      });
+    }
+  }
+
+  /*
+   * =========================================================
+   * MESSAGE
+   * =========================================================
+   */
+
+  const resultMessage =
+    withdrawalMode === "withdrawn_placed"
+      ? `${student.studentCode} | ${student.name} changed to Withdrawn + Placed with ${placedCompany.name}. ${affected.length} remaining interview(s) were withdrawn. Released interview capacity was reassigned where possible.`
+      : `${student.studentCode} | ${student.name} changed to Withdrawn. ${affected.length} scheduled interview(s) were withdrawn. Released interview capacity was reassigned where possible.`;
+
+  /*
+   * =========================================================
+   * DISRUPTION RECORD
+   * =========================================================
+   */
+
+  const record = await Disruption.create({
+    type,
+
+    studentId:
+      student._id,
+
+    affectedCount:
+      affected.length,
+
+    movedCount:
+      moved.length,
+
+    unscheduledCount:
+      afterStats.unscheduled,
+
+    summary:
+      resultMessage,
+
+    details: [
+      resultMessage
+    ]
+  });
+
+  /*
+   * =========================================================
+   * FINAL RESPONSE
+   * =========================================================
+   */
+
+  // return res.json({
+  //   message:
+  //     resultMessage,
+
+  //   affectedCount:
+  //     affected.length,
+
+  //   movedCount:
+  //     moved.length,
+
+  //   replacementCount:
+  //     replacements.length,
+
+  //   scheduledBefore:
+  //     beforeStats.scheduled,
+
+  //   scheduledAfter:
+  //     afterStats.scheduled,
+
+  //   unscheduledBefore:
+  //     beforeStats.unscheduled,
+
+  //   unscheduledAfter:
+  //     afterStats.unscheduled,
+
+  //   unscheduledCount:
+  //     afterStats.unscheduled,
+
+  //   moved:
+  //     moved.slice(0, 300),
+
+  //   replacements:
+  //     replacements.slice(0, 300),
+
+  //   details: [
+  //     resultMessage
+  //   ],
+
+  //   disruption:
+  //     record,
+
+  //   status:
+  //     student.status,
+
+  //   placedCompany:
+  //     placedCompany?.name ||
+  //     undefined
+  // });
+
+return res.json({
+  message: resultMessage,
+
+  affectedCount: affected.length,
+
+  // Existing frontend compatibility
+  cancelledCount: affected.length,
+
+  cancelledInterviews: affected.map(x => ({
+    studentCode: student.studentCode,
+    student: student.name,
+    company: x.companyId?.name,
+    day: x.day,
+    startMinute: x.startMinute,
+    endMinute: x.endMinute,
+    room: x.roomId?.name,
+    panel: x.panel
+  })),
+
+  movedCount: moved.length,
+
+  moved: moved.slice(0, 300),
+
+  // Replacement information
+  replacementCount: replacements.length,
+
+  replacements: replacements.slice(0, 300),
+
+  // Frontend-friendly name
+  replacementStudents: replacements.slice(0, 300),
+
+  scheduledBefore: beforeStats.scheduled,
+
+  scheduledAfter: afterStats.scheduled,
+
+  unscheduledBefore: beforeStats.unscheduled,
+
+  unscheduledAfter: afterStats.unscheduled,
+
+  unscheduledCount: afterStats.unscheduled,
+
+  details: [
+    resultMessage
+  ],
+
+  disruption: record,
+
+  status: student.status,
+
+  placedCompany:
+    placedCompany?.name || undefined
+});
+}
       /* =====================================================
          ROOM UNAVAILABLE
       ===================================================== */

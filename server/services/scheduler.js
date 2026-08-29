@@ -113,6 +113,7 @@ const rawTarget = Number(config?.targetPercent);
   const scheduled = [];
   const scheduledPairs = new Set();
   const scheduledStudents = new Set();
+  const replacementAssignments = [];
 
   const getPanel = (companyId, panel, day) => panelState.get(`${day}-${companyId}-${panel}`) || [];
   const getStudent = (studentId, day) => studentState.get(`${studentId}-${day}`) || [];
@@ -294,13 +295,63 @@ const rawTarget = Number(config?.targetPercent);
       return ac - bc || Math.random() - 0.5;
     });
 
-    const shortlist = candidates[0];
-    if (!shortlist) continue;
-    if (!panelFree(slot.companyId, slot.panel, slot.day, slot.start, slot.end)) continue;
-    if (!roomCanHost(room, slot.day, slot.start, slot.end, slot.companyId, slot.panel)) continue;
+    // const shortlist = candidates[0];
+    // if (!shortlist) continue;
+    // if (!panelFree(slot.companyId, slot.panel, slot.day, slot.start, slot.end)) continue;
+    // if (!roomCanHost(room, slot.day, slot.start, slot.end, slot.companyId, slot.panel)) continue;
 
-    panelRoom.set(`${slot.day}-${slot.companyId}-${slot.panel}`, room);
-    book(shortlist, company, room, slot.day, slot.panel, slot.start);
+    // panelRoom.set(`${slot.day}-${slot.companyId}-${slot.panel}`, room);
+    // book(shortlist, company, room, slot.day, slot.panel, slot.start);
+
+    const shortlist = candidates[0];
+
+if (!shortlist) continue;
+
+if (
+  !panelFree(
+    slot.companyId,
+    slot.panel,
+    slot.day,
+    slot.start,
+    slot.end
+  )
+) continue;
+
+if (
+  !roomCanHost(
+    room,
+    slot.day,
+    slot.start,
+    slot.end,
+    slot.companyId,
+    slot.panel
+  )
+) continue;
+
+panelRoom.set(
+  `${slot.day}-${slot.companyId}-${slot.panel}`,
+  room
+);
+
+const replacement = book(
+  shortlist,
+  company,
+  room,
+  slot.day,
+  slot.panel,
+  slot.start
+);
+
+replacementAssignments.push({
+  studentId: replacement.studentId,
+  companyId: replacement.companyId,
+  roomId: replacement.roomId,
+  day: replacement.day,
+  startMinute: replacement.startMinute,
+  endMinute: replacement.endMinute,
+  panel: replacement.panel,
+  replacedStudentId: slot.studentId
+});
   }
 
   // Build every real interview slot from 09:00 through 17:00. The next slot
@@ -422,7 +473,14 @@ const rawTarget = Number(config?.targetPercent);
 
   if (scheduled.length) await Interview.insertMany(scheduled, { ordered: true });
 
-  return { scheduled, unscheduled, targetCount, targetPercent };
+  // return { scheduled, unscheduled, targetCount, targetPercent };
+  return {
+  scheduled,
+  unscheduled,
+  targetCount,
+  targetPercent,
+  replacementAssignments
+};
 }
 
 
