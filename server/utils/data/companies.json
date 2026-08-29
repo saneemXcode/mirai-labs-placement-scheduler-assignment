@@ -1,0 +1,569 @@
+[
+  {
+    "name": "Google",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 3,
+    "duration": 40,
+    "cgpaCutoff": 7.8,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1,
+      3
+    ]
+  },
+  {
+    "name": "Microsoft",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 2,
+    "duration": 40,
+    "cgpaCutoff": 6.6,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1,
+      3
+    ]
+  },
+  {
+    "name": "Amazon",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 8,
+    "duration": 45,
+    "cgpaCutoff": 7.9,
+    "priority": 1,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1
+    ]
+  },
+  {
+    "name": "Tata Consultancy Services",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 8,
+    "duration": 35,
+    "cgpaCutoff": 6.7,
+    "priority": 1,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1
+    ]
+  },
+  {
+    "name": "Infosys",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 7,
+    "duration": 30,
+    "cgpaCutoff": 8.0,
+    "priority": 1,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1
+    ]
+  },
+  {
+    "name": "Wipro",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 6,
+    "duration": 45,
+    "cgpaCutoff": 6.8,
+    "priority": 1,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1
+    ]
+  },
+  {
+    "name": "Accenture",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 6,
+    "duration": 40,
+    "cgpaCutoff": 8.1,
+    "priority": 1,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1
+    ]
+  },
+  {
+    "name": "Cognizant",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 6,
+    "duration": 45,
+    "cgpaCutoff": 6.9,
+    "priority": 1,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1
+    ]
+  },
+  {
+    "name": "Capgemini",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 3,
+    "duration": 30,
+    "cgpaCutoff": 8.2,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1
+    ]
+  },
+  {
+    "name": "HCLTech",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 6,
+    "duration": 30,
+    "cgpaCutoff": 7.0,
+    "priority": 1,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1
+    ]
+  },
+  {
+    "name": "IBM",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 5,
+    "duration": 35,
+    "cgpaCutoff": 8.3,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "Oracle",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 5,
+    "duration": 30,
+    "cgpaCutoff": 7.1,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1,
+      2
+    ]
+  },
+  {
+    "name": "SAP",
+    "day": 2,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 5,
+    "duration": 45,
+    "cgpaCutoff": 8.4,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      2
+    ]
+  },
+  {
+    "name": "Adobe",
+    "day": 2,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 3,
+    "duration": 35,
+    "cgpaCutoff": 7.2,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      2
+    ]
+  },
+  {
+    "name": "Cisco",
+    "day": 2,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 6,
+    "duration": 40,
+    "cgpaCutoff": 8.5,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      2
+    ]
+  },
+  {
+    "name": "Deloitte",
+    "day": 2,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 3,
+    "duration": 35,
+    "cgpaCutoff": 7.3,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      2
+    ]
+  },
+  {
+    "name": "Ernst & Young",
+    "day": 2,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 6,
+    "duration": 30,
+    "cgpaCutoff": 8.6,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      2
+    ]
+  },
+  {
+    "name": "KPMG",
+    "day": 2,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 1,
+    "duration": 45,
+    "cgpaCutoff": 7.4,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      2
+    ]
+  },
+  {
+    "name": "PwC",
+    "day": 2,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 3,
+    "duration": 40,
+    "cgpaCutoff": 8.7,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      2
+    ]
+  },
+  {
+    "name": "Tech Mahindra",
+    "day": 3,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 5,
+    "duration": 30,
+    "cgpaCutoff": 7.5,
+    "priority": 3,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      3
+    ]
+  },
+  {
+    "name": "LTIMindtree",
+    "day": 3,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 1,
+    "duration": 35,
+    "cgpaCutoff": 8.8,
+    "priority": 3,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      3
+    ]
+  },
+  {
+    "name": "Mphasis",
+    "day": 3,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 1,
+    "duration": 30,
+    "cgpaCutoff": 7.6,
+    "priority": 3,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      3
+    ]
+  },
+  {
+    "name": "Persistent Systems",
+    "day": 3,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 1,
+    "duration": 30,
+    "cgpaCutoff": 8.9,
+    "priority": 3,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      3
+    ]
+  },
+  {
+    "name": "Zoho",
+    "day": 3,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 6,
+    "duration": 35,
+    "cgpaCutoff": 7.7,
+    "priority": 3,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      3
+    ]
+  },
+  {
+    "name": "Freshworks",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 5,
+    "duration": 45,
+    "cgpaCutoff": 6.5,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1,
+      3
+    ]
+  },
+  {
+    "name": "Flipkart",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 3,
+    "duration": 40,
+    "cgpaCutoff": 7.8,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1,
+      3
+    ]
+  },
+  {
+    "name": "Walmart Global Tech",
+    "day": 3,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 2,
+    "duration": 40,
+    "cgpaCutoff": 6.6,
+    "priority": 3,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      3
+    ]
+  },
+  {
+    "name": "JPMorgan Chase",
+    "day": 1,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 5,
+    "duration": 45,
+    "cgpaCutoff": 7.9,
+    "priority": 2,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      1,
+      3
+    ]
+  },
+  {
+    "name": "Goldman Sachs",
+    "day": 4,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 4,
+    "duration": 30,
+    "cgpaCutoff": 6.7,
+    "priority": 3,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      4
+    ]
+  },
+  {
+    "name": "Siemens",
+    "day": 4,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 6,
+    "duration": 30,
+    "cgpaCutoff": 8.0,
+    "priority": 3,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      4
+    ]
+  },
+  {
+    "name": "Bosch",
+    "day": 4,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 4,
+    "duration": 35,
+    "cgpaCutoff": 6.8,
+    "priority": 3,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      4
+    ]
+  },
+  {
+    "name": "Qualcomm",
+    "day": 4,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 6,
+    "duration": 45,
+    "cgpaCutoff": 8.1,
+    "priority": 3,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      4
+    ]
+  },
+  {
+    "name": "Intel",
+    "day": 4,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 3,
+    "duration": 30,
+    "cgpaCutoff": 6.9,
+    "priority": 3,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      4
+    ]
+  },
+  {
+    "name": "Dell Technologies",
+    "day": 4,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 6,
+    "duration": 35,
+    "cgpaCutoff": 8.2,
+    "priority": 3,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      4
+    ]
+  },
+  {
+    "name": "Atlassian",
+    "day": 4,
+    "startMinute": 540,
+    "endMinute": 1020,
+    "panels": 2,
+    "duration": 40,
+    "cgpaCutoff": 7.0,
+    "priority": 3,
+    "panelDetails": [],
+    "shortlistCount": 0,
+    "blockedPanels": [],
+    "days": [
+      4
+    ]
+  }
+]

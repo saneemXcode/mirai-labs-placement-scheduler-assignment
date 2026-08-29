@@ -1,0 +1,5602 @@
+[
+  {
+    "studentCode": "STU-0001",
+    "name": "Aarav Agarwal",
+    "branch": "CSE",
+    "cgpa": 7.05,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0002",
+    "name": "Aisha Agarwal",
+    "branch": "ISE",
+    "cgpa": 7.52,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0003",
+    "name": "Abhinav Agarwal",
+    "branch": "ECE",
+    "cgpa": 7.99,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0004",
+    "name": "Aditya Agarwal",
+    "branch": "EEE",
+    "cgpa": 8.46,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0005",
+    "name": "Akash Agarwal",
+    "branch": "ME",
+    "cgpa": 8.93,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0006",
+    "name": "Akshay Agarwal",
+    "branch": "AI&DS",
+    "cgpa": 9.4,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0007",
+    "name": "Ameya Agarwal",
+    "branch": "CSE",
+    "cgpa": 9.87,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0008",
+    "name": "Ananya Agarwal",
+    "branch": "ISE",
+    "cgpa": 7.43,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0009",
+    "name": "Anika Agarwal",
+    "branch": "ECE",
+    "cgpa": 7.9,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0010",
+    "name": "Anirudh Agarwal",
+    "branch": "EEE",
+    "cgpa": 8.37,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0011",
+    "name": "Arjun Agarwal",
+    "branch": "ME",
+    "cgpa": 8.84,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0012",
+    "name": "Arnav Agarwal",
+    "branch": "AI&DS",
+    "cgpa": 9.31,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0013",
+    "name": "Aryan Agarwal",
+    "branch": "CSE",
+    "cgpa": 9.78,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0014",
+    "name": "Ashwin Agarwal",
+    "branch": "ISE",
+    "cgpa": 7.34,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0015",
+    "name": "Avani Agarwal",
+    "branch": "ECE",
+    "cgpa": 7.81,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0016",
+    "name": "Bhavya Agarwal",
+    "branch": "EEE",
+    "cgpa": 8.28,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0017",
+    "name": "Chaitanya Agarwal",
+    "branch": "ME",
+    "cgpa": 8.75,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0018",
+    "name": "Charan Agarwal",
+    "branch": "AI&DS",
+    "cgpa": 9.22,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0019",
+    "name": "Diya Agarwal",
+    "branch": "CSE",
+    "cgpa": 9.69,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0020",
+    "name": "Dhruv Agarwal",
+    "branch": "ISE",
+    "cgpa": 7.25,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0021",
+    "name": "Esha Agarwal",
+    "branch": "ECE",
+    "cgpa": 7.72,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0022",
+    "name": "Farhan Agarwal",
+    "branch": "EEE",
+    "cgpa": 8.19,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0023",
+    "name": "Gaurav Agarwal",
+    "branch": "ME",
+    "cgpa": 8.66,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0024",
+    "name": "Harini Agarwal",
+    "branch": "AI&DS",
+    "cgpa": 9.13,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0025",
+    "name": "Ishaan Agarwal",
+    "branch": "CSE",
+    "cgpa": 9.6,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0026",
+    "name": "Ishita Agarwal",
+    "branch": "ISE",
+    "cgpa": 7.16,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0027",
+    "name": "Jai Agarwal",
+    "branch": "ECE",
+    "cgpa": 7.63,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0028",
+    "name": "Karan Agarwal",
+    "branch": "EEE",
+    "cgpa": 8.1,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0029",
+    "name": "Kavya Agarwal",
+    "branch": "ME",
+    "cgpa": 8.57,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0030",
+    "name": "Kiran Agarwal",
+    "branch": "AI&DS",
+    "cgpa": 9.04,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0031",
+    "name": "Krishna Agarwal",
+    "branch": "CSE",
+    "cgpa": 9.51,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0032",
+    "name": "Lakshmi Agarwal",
+    "branch": "ISE",
+    "cgpa": 7.07,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0033",
+    "name": "Manish Agarwal",
+    "branch": "ECE",
+    "cgpa": 7.54,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0034",
+    "name": "Meera Agarwal",
+    "branch": "EEE",
+    "cgpa": 8.01,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0035",
+    "name": "Mihir Agarwal",
+    "branch": "ME",
+    "cgpa": 8.48,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0036",
+    "name": "Moksh Agarwal",
+    "branch": "AI&DS",
+    "cgpa": 8.95,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0037",
+    "name": "Nandini Agarwal",
+    "branch": "CSE",
+    "cgpa": 9.42,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0038",
+    "name": "Neha Agarwal",
+    "branch": "ISE",
+    "cgpa": 9.89,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0039",
+    "name": "Nikhil Agarwal",
+    "branch": "ECE",
+    "cgpa": 7.45,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0040",
+    "name": "Nisha Agarwal",
+    "branch": "EEE",
+    "cgpa": 7.92,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0041",
+    "name": "Aarav Bansal",
+    "branch": "ME",
+    "cgpa": 8.39,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0042",
+    "name": "Aisha Bansal",
+    "branch": "AI&DS",
+    "cgpa": 8.86,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0043",
+    "name": "Abhinav Bansal",
+    "branch": "CSE",
+    "cgpa": 9.33,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0044",
+    "name": "Aditya Bansal",
+    "branch": "ISE",
+    "cgpa": 9.8,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0045",
+    "name": "Akash Bansal",
+    "branch": "ECE",
+    "cgpa": 7.36,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0046",
+    "name": "Akshay Bansal",
+    "branch": "EEE",
+    "cgpa": 7.83,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0047",
+    "name": "Ameya Bansal",
+    "branch": "ME",
+    "cgpa": 8.3,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0048",
+    "name": "Ananya Bansal",
+    "branch": "AI&DS",
+    "cgpa": 8.77,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0049",
+    "name": "Anika Bansal",
+    "branch": "CSE",
+    "cgpa": 9.24,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0050",
+    "name": "Anirudh Bansal",
+    "branch": "ISE",
+    "cgpa": 9.71,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0051",
+    "name": "Arjun Bansal",
+    "branch": "ECE",
+    "cgpa": 7.27,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0052",
+    "name": "Arnav Bansal",
+    "branch": "EEE",
+    "cgpa": 7.74,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0053",
+    "name": "Aryan Bansal",
+    "branch": "ME",
+    "cgpa": 8.21,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0054",
+    "name": "Ashwin Bansal",
+    "branch": "AI&DS",
+    "cgpa": 8.68,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0055",
+    "name": "Avani Bansal",
+    "branch": "CSE",
+    "cgpa": 9.15,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0056",
+    "name": "Bhavya Bansal",
+    "branch": "ISE",
+    "cgpa": 9.62,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0057",
+    "name": "Chaitanya Bansal",
+    "branch": "ECE",
+    "cgpa": 7.18,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0058",
+    "name": "Charan Bansal",
+    "branch": "EEE",
+    "cgpa": 7.65,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0059",
+    "name": "Diya Bansal",
+    "branch": "ME",
+    "cgpa": 8.12,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0060",
+    "name": "Dhruv Bansal",
+    "branch": "AI&DS",
+    "cgpa": 8.59,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0061",
+    "name": "Esha Bansal",
+    "branch": "CSE",
+    "cgpa": 9.06,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0062",
+    "name": "Farhan Bansal",
+    "branch": "ISE",
+    "cgpa": 9.53,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0063",
+    "name": "Gaurav Bansal",
+    "branch": "ECE",
+    "cgpa": 7.09,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0064",
+    "name": "Harini Bansal",
+    "branch": "EEE",
+    "cgpa": 7.56,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0065",
+    "name": "Ishaan Bansal",
+    "branch": "ME",
+    "cgpa": 8.03,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0066",
+    "name": "Ishita Bansal",
+    "branch": "AI&DS",
+    "cgpa": 8.5,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0067",
+    "name": "Jai Bansal",
+    "branch": "CSE",
+    "cgpa": 8.97,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0068",
+    "name": "Karan Bansal",
+    "branch": "ISE",
+    "cgpa": 9.44,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0069",
+    "name": "Kavya Bansal",
+    "branch": "ECE",
+    "cgpa": 9.91,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0070",
+    "name": "Kiran Bansal",
+    "branch": "EEE",
+    "cgpa": 7.47,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0071",
+    "name": "Krishna Bansal",
+    "branch": "ME",
+    "cgpa": 7.94,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0072",
+    "name": "Lakshmi Bansal",
+    "branch": "AI&DS",
+    "cgpa": 8.41,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0073",
+    "name": "Manish Bansal",
+    "branch": "CSE",
+    "cgpa": 8.88,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0074",
+    "name": "Meera Bansal",
+    "branch": "ISE",
+    "cgpa": 9.35,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0075",
+    "name": "Mihir Bansal",
+    "branch": "ECE",
+    "cgpa": 9.82,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0076",
+    "name": "Moksh Bansal",
+    "branch": "EEE",
+    "cgpa": 7.38,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0077",
+    "name": "Nandini Bansal",
+    "branch": "ME",
+    "cgpa": 7.85,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0078",
+    "name": "Neha Bansal",
+    "branch": "AI&DS",
+    "cgpa": 8.32,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0079",
+    "name": "Nikhil Bansal",
+    "branch": "CSE",
+    "cgpa": 8.79,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0080",
+    "name": "Nisha Bansal",
+    "branch": "ISE",
+    "cgpa": 9.26,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0081",
+    "name": "Aarav Chakraborty",
+    "branch": "ECE",
+    "cgpa": 9.73,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0082",
+    "name": "Aisha Chakraborty",
+    "branch": "EEE",
+    "cgpa": 7.29,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0083",
+    "name": "Abhinav Chakraborty",
+    "branch": "ME",
+    "cgpa": 7.76,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0084",
+    "name": "Aditya Chakraborty",
+    "branch": "AI&DS",
+    "cgpa": 8.23,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0085",
+    "name": "Akash Chakraborty",
+    "branch": "CSE",
+    "cgpa": 8.7,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0086",
+    "name": "Akshay Chakraborty",
+    "branch": "ISE",
+    "cgpa": 9.17,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0087",
+    "name": "Ameya Chakraborty",
+    "branch": "ECE",
+    "cgpa": 9.64,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0088",
+    "name": "Ananya Chakraborty",
+    "branch": "EEE",
+    "cgpa": 7.2,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0089",
+    "name": "Anika Chakraborty",
+    "branch": "ME",
+    "cgpa": 7.67,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0090",
+    "name": "Anirudh Chakraborty",
+    "branch": "AI&DS",
+    "cgpa": 8.14,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0091",
+    "name": "Arjun Chakraborty",
+    "branch": "CSE",
+    "cgpa": 8.61,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0092",
+    "name": "Arnav Chakraborty",
+    "branch": "ISE",
+    "cgpa": 9.08,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0093",
+    "name": "Aryan Chakraborty",
+    "branch": "ECE",
+    "cgpa": 9.55,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0094",
+    "name": "Ashwin Chakraborty",
+    "branch": "EEE",
+    "cgpa": 7.11,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0095",
+    "name": "Avani Chakraborty",
+    "branch": "ME",
+    "cgpa": 7.58,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0096",
+    "name": "Bhavya Chakraborty",
+    "branch": "AI&DS",
+    "cgpa": 8.05,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0097",
+    "name": "Chaitanya Chakraborty",
+    "branch": "CSE",
+    "cgpa": 8.52,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0098",
+    "name": "Charan Chakraborty",
+    "branch": "ISE",
+    "cgpa": 8.99,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0099",
+    "name": "Diya Chakraborty",
+    "branch": "ECE",
+    "cgpa": 9.46,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0100",
+    "name": "Dhruv Chakraborty",
+    "branch": "EEE",
+    "cgpa": 9.93,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0101",
+    "name": "Esha Chakraborty",
+    "branch": "ME",
+    "cgpa": 7.49,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0102",
+    "name": "Farhan Chakraborty",
+    "branch": "AI&DS",
+    "cgpa": 7.96,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0103",
+    "name": "Gaurav Chakraborty",
+    "branch": "CSE",
+    "cgpa": 8.43,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0104",
+    "name": "Harini Chakraborty",
+    "branch": "ISE",
+    "cgpa": 8.9,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0105",
+    "name": "Ishaan Chakraborty",
+    "branch": "ECE",
+    "cgpa": 9.37,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0106",
+    "name": "Ishita Chakraborty",
+    "branch": "EEE",
+    "cgpa": 9.84,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0107",
+    "name": "Jai Chakraborty",
+    "branch": "ME",
+    "cgpa": 7.4,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0108",
+    "name": "Karan Chakraborty",
+    "branch": "AI&DS",
+    "cgpa": 7.87,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0109",
+    "name": "Kavya Chakraborty",
+    "branch": "CSE",
+    "cgpa": 8.34,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0110",
+    "name": "Kiran Chakraborty",
+    "branch": "ISE",
+    "cgpa": 8.81,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0111",
+    "name": "Krishna Chakraborty",
+    "branch": "ECE",
+    "cgpa": 9.28,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0112",
+    "name": "Lakshmi Chakraborty",
+    "branch": "EEE",
+    "cgpa": 9.75,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0113",
+    "name": "Manish Chakraborty",
+    "branch": "ME",
+    "cgpa": 7.31,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0114",
+    "name": "Meera Chakraborty",
+    "branch": "AI&DS",
+    "cgpa": 7.78,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0115",
+    "name": "Mihir Chakraborty",
+    "branch": "CSE",
+    "cgpa": 8.25,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0116",
+    "name": "Moksh Chakraborty",
+    "branch": "ISE",
+    "cgpa": 8.72,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0117",
+    "name": "Nandini Chakraborty",
+    "branch": "ECE",
+    "cgpa": 9.19,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0118",
+    "name": "Neha Chakraborty",
+    "branch": "EEE",
+    "cgpa": 9.66,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0119",
+    "name": "Nikhil Chakraborty",
+    "branch": "ME",
+    "cgpa": 7.22,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0120",
+    "name": "Nisha Chakraborty",
+    "branch": "AI&DS",
+    "cgpa": 7.69,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0121",
+    "name": "Aarav Chauhan",
+    "branch": "CSE",
+    "cgpa": 8.16,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0122",
+    "name": "Aisha Chauhan",
+    "branch": "ISE",
+    "cgpa": 8.63,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0123",
+    "name": "Abhinav Chauhan",
+    "branch": "ECE",
+    "cgpa": 9.1,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0124",
+    "name": "Aditya Chauhan",
+    "branch": "EEE",
+    "cgpa": 9.57,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0125",
+    "name": "Akash Chauhan",
+    "branch": "ME",
+    "cgpa": 7.13,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0126",
+    "name": "Akshay Chauhan",
+    "branch": "AI&DS",
+    "cgpa": 7.6,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0127",
+    "name": "Ameya Chauhan",
+    "branch": "CSE",
+    "cgpa": 8.07,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0128",
+    "name": "Ananya Chauhan",
+    "branch": "ISE",
+    "cgpa": 8.54,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0129",
+    "name": "Anika Chauhan",
+    "branch": "ECE",
+    "cgpa": 9.01,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0130",
+    "name": "Anirudh Chauhan",
+    "branch": "EEE",
+    "cgpa": 9.48,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0131",
+    "name": "Arjun Chauhan",
+    "branch": "ME",
+    "cgpa": 9.95,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0132",
+    "name": "Arnav Chauhan",
+    "branch": "AI&DS",
+    "cgpa": 7.51,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0133",
+    "name": "Aryan Chauhan",
+    "branch": "CSE",
+    "cgpa": 7.98,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0134",
+    "name": "Ashwin Chauhan",
+    "branch": "ISE",
+    "cgpa": 8.45,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0135",
+    "name": "Avani Chauhan",
+    "branch": "ECE",
+    "cgpa": 8.92,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0136",
+    "name": "Bhavya Chauhan",
+    "branch": "EEE",
+    "cgpa": 9.39,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0137",
+    "name": "Chaitanya Chauhan",
+    "branch": "ME",
+    "cgpa": 9.86,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0138",
+    "name": "Charan Chauhan",
+    "branch": "AI&DS",
+    "cgpa": 7.42,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0139",
+    "name": "Diya Chauhan",
+    "branch": "CSE",
+    "cgpa": 7.89,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0140",
+    "name": "Dhruv Chauhan",
+    "branch": "ISE",
+    "cgpa": 8.36,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0141",
+    "name": "Esha Chauhan",
+    "branch": "ECE",
+    "cgpa": 8.83,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0142",
+    "name": "Farhan Chauhan",
+    "branch": "EEE",
+    "cgpa": 9.3,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0143",
+    "name": "Gaurav Chauhan",
+    "branch": "ME",
+    "cgpa": 9.77,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0144",
+    "name": "Harini Chauhan",
+    "branch": "AI&DS",
+    "cgpa": 7.33,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0145",
+    "name": "Ishaan Chauhan",
+    "branch": "CSE",
+    "cgpa": 7.8,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0146",
+    "name": "Ishita Chauhan",
+    "branch": "ISE",
+    "cgpa": 8.27,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0147",
+    "name": "Jai Chauhan",
+    "branch": "ECE",
+    "cgpa": 8.74,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0148",
+    "name": "Karan Chauhan",
+    "branch": "EEE",
+    "cgpa": 9.21,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0149",
+    "name": "Kavya Chauhan",
+    "branch": "ME",
+    "cgpa": 9.68,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0150",
+    "name": "Kiran Chauhan",
+    "branch": "AI&DS",
+    "cgpa": 7.24,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0151",
+    "name": "Krishna Chauhan",
+    "branch": "CSE",
+    "cgpa": 7.71,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0152",
+    "name": "Lakshmi Chauhan",
+    "branch": "ISE",
+    "cgpa": 8.18,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0153",
+    "name": "Manish Chauhan",
+    "branch": "ECE",
+    "cgpa": 8.65,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0154",
+    "name": "Meera Chauhan",
+    "branch": "EEE",
+    "cgpa": 9.12,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0155",
+    "name": "Mihir Chauhan",
+    "branch": "ME",
+    "cgpa": 9.59,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0156",
+    "name": "Moksh Chauhan",
+    "branch": "AI&DS",
+    "cgpa": 7.15,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0157",
+    "name": "Nandini Chauhan",
+    "branch": "CSE",
+    "cgpa": 7.62,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0158",
+    "name": "Neha Chauhan",
+    "branch": "ISE",
+    "cgpa": 8.09,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0159",
+    "name": "Nikhil Chauhan",
+    "branch": "ECE",
+    "cgpa": 8.56,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0160",
+    "name": "Nisha Chauhan",
+    "branch": "EEE",
+    "cgpa": 9.03,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0161",
+    "name": "Aarav Deshmukh",
+    "branch": "ME",
+    "cgpa": 9.5,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0162",
+    "name": "Aisha Deshmukh",
+    "branch": "AI&DS",
+    "cgpa": 7.06,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0163",
+    "name": "Abhinav Deshmukh",
+    "branch": "CSE",
+    "cgpa": 7.53,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0164",
+    "name": "Aditya Deshmukh",
+    "branch": "ISE",
+    "cgpa": 8.0,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0165",
+    "name": "Akash Deshmukh",
+    "branch": "ECE",
+    "cgpa": 8.47,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0166",
+    "name": "Akshay Deshmukh",
+    "branch": "EEE",
+    "cgpa": 8.94,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0167",
+    "name": "Ameya Deshmukh",
+    "branch": "ME",
+    "cgpa": 9.41,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0168",
+    "name": "Ananya Deshmukh",
+    "branch": "AI&DS",
+    "cgpa": 9.88,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0169",
+    "name": "Anika Deshmukh",
+    "branch": "CSE",
+    "cgpa": 7.44,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0170",
+    "name": "Anirudh Deshmukh",
+    "branch": "ISE",
+    "cgpa": 7.91,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0171",
+    "name": "Arjun Deshmukh",
+    "branch": "ECE",
+    "cgpa": 8.38,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0172",
+    "name": "Arnav Deshmukh",
+    "branch": "EEE",
+    "cgpa": 8.85,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0173",
+    "name": "Aryan Deshmukh",
+    "branch": "ME",
+    "cgpa": 9.32,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0174",
+    "name": "Ashwin Deshmukh",
+    "branch": "AI&DS",
+    "cgpa": 9.79,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0175",
+    "name": "Avani Deshmukh",
+    "branch": "CSE",
+    "cgpa": 7.35,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0176",
+    "name": "Bhavya Deshmukh",
+    "branch": "ISE",
+    "cgpa": 7.82,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0177",
+    "name": "Chaitanya Deshmukh",
+    "branch": "ECE",
+    "cgpa": 8.29,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0178",
+    "name": "Charan Deshmukh",
+    "branch": "EEE",
+    "cgpa": 8.76,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0179",
+    "name": "Diya Deshmukh",
+    "branch": "ME",
+    "cgpa": 9.23,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0180",
+    "name": "Dhruv Deshmukh",
+    "branch": "AI&DS",
+    "cgpa": 9.7,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0181",
+    "name": "Esha Deshmukh",
+    "branch": "CSE",
+    "cgpa": 7.26,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0182",
+    "name": "Farhan Deshmukh",
+    "branch": "ISE",
+    "cgpa": 7.73,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0183",
+    "name": "Gaurav Deshmukh",
+    "branch": "ECE",
+    "cgpa": 8.2,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0184",
+    "name": "Harini Deshmukh",
+    "branch": "EEE",
+    "cgpa": 8.67,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0185",
+    "name": "Ishaan Deshmukh",
+    "branch": "ME",
+    "cgpa": 9.14,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0186",
+    "name": "Ishita Deshmukh",
+    "branch": "AI&DS",
+    "cgpa": 9.61,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0187",
+    "name": "Jai Deshmukh",
+    "branch": "CSE",
+    "cgpa": 7.17,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0188",
+    "name": "Karan Deshmukh",
+    "branch": "ISE",
+    "cgpa": 7.64,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0189",
+    "name": "Kavya Deshmukh",
+    "branch": "ECE",
+    "cgpa": 8.11,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0190",
+    "name": "Kiran Deshmukh",
+    "branch": "EEE",
+    "cgpa": 8.58,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0191",
+    "name": "Krishna Deshmukh",
+    "branch": "ME",
+    "cgpa": 9.05,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0192",
+    "name": "Lakshmi Deshmukh",
+    "branch": "AI&DS",
+    "cgpa": 9.52,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0193",
+    "name": "Manish Deshmukh",
+    "branch": "CSE",
+    "cgpa": 7.08,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0194",
+    "name": "Meera Deshmukh",
+    "branch": "ISE",
+    "cgpa": 7.55,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0195",
+    "name": "Mihir Deshmukh",
+    "branch": "ECE",
+    "cgpa": 8.02,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0196",
+    "name": "Moksh Deshmukh",
+    "branch": "EEE",
+    "cgpa": 8.49,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0197",
+    "name": "Nandini Deshmukh",
+    "branch": "ME",
+    "cgpa": 8.96,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0198",
+    "name": "Neha Deshmukh",
+    "branch": "AI&DS",
+    "cgpa": 9.43,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0199",
+    "name": "Nikhil Deshmukh",
+    "branch": "CSE",
+    "cgpa": 9.9,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0200",
+    "name": "Nisha Deshmukh",
+    "branch": "ISE",
+    "cgpa": 7.46,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0201",
+    "name": "Aarav Fernandes",
+    "branch": "ECE",
+    "cgpa": 7.93,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0202",
+    "name": "Aisha Fernandes",
+    "branch": "EEE",
+    "cgpa": 8.4,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0203",
+    "name": "Abhinav Fernandes",
+    "branch": "ME",
+    "cgpa": 8.87,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0204",
+    "name": "Aditya Fernandes",
+    "branch": "AI&DS",
+    "cgpa": 9.34,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0205",
+    "name": "Akash Fernandes",
+    "branch": "CSE",
+    "cgpa": 9.81,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0206",
+    "name": "Akshay Fernandes",
+    "branch": "ISE",
+    "cgpa": 7.37,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0207",
+    "name": "Ameya Fernandes",
+    "branch": "ECE",
+    "cgpa": 7.84,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0208",
+    "name": "Ananya Fernandes",
+    "branch": "EEE",
+    "cgpa": 8.31,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0209",
+    "name": "Anika Fernandes",
+    "branch": "ME",
+    "cgpa": 8.78,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0210",
+    "name": "Anirudh Fernandes",
+    "branch": "AI&DS",
+    "cgpa": 9.25,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0211",
+    "name": "Arjun Fernandes",
+    "branch": "CSE",
+    "cgpa": 9.72,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0212",
+    "name": "Arnav Fernandes",
+    "branch": "ISE",
+    "cgpa": 7.28,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0213",
+    "name": "Aryan Fernandes",
+    "branch": "ECE",
+    "cgpa": 7.75,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0214",
+    "name": "Ashwin Fernandes",
+    "branch": "EEE",
+    "cgpa": 8.22,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0215",
+    "name": "Avani Fernandes",
+    "branch": "ME",
+    "cgpa": 8.69,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0216",
+    "name": "Bhavya Fernandes",
+    "branch": "AI&DS",
+    "cgpa": 9.16,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0217",
+    "name": "Chaitanya Fernandes",
+    "branch": "CSE",
+    "cgpa": 9.63,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0218",
+    "name": "Charan Fernandes",
+    "branch": "ISE",
+    "cgpa": 7.19,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0219",
+    "name": "Diya Fernandes",
+    "branch": "ECE",
+    "cgpa": 7.66,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0220",
+    "name": "Dhruv Fernandes",
+    "branch": "EEE",
+    "cgpa": 8.13,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0221",
+    "name": "Esha Fernandes",
+    "branch": "ME",
+    "cgpa": 8.6,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0222",
+    "name": "Farhan Fernandes",
+    "branch": "AI&DS",
+    "cgpa": 9.07,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0223",
+    "name": "Gaurav Fernandes",
+    "branch": "CSE",
+    "cgpa": 9.54,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0224",
+    "name": "Harini Fernandes",
+    "branch": "ISE",
+    "cgpa": 7.1,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0225",
+    "name": "Ishaan Fernandes",
+    "branch": "ECE",
+    "cgpa": 7.57,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0226",
+    "name": "Ishita Fernandes",
+    "branch": "EEE",
+    "cgpa": 8.04,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0227",
+    "name": "Jai Fernandes",
+    "branch": "ME",
+    "cgpa": 8.51,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0228",
+    "name": "Karan Fernandes",
+    "branch": "AI&DS",
+    "cgpa": 8.98,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0229",
+    "name": "Kavya Fernandes",
+    "branch": "CSE",
+    "cgpa": 9.45,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0230",
+    "name": "Kiran Fernandes",
+    "branch": "ISE",
+    "cgpa": 9.92,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0231",
+    "name": "Krishna Fernandes",
+    "branch": "ECE",
+    "cgpa": 7.48,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0232",
+    "name": "Lakshmi Fernandes",
+    "branch": "EEE",
+    "cgpa": 7.95,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0233",
+    "name": "Manish Fernandes",
+    "branch": "ME",
+    "cgpa": 8.42,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0234",
+    "name": "Meera Fernandes",
+    "branch": "AI&DS",
+    "cgpa": 8.89,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0235",
+    "name": "Mihir Fernandes",
+    "branch": "CSE",
+    "cgpa": 9.36,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0236",
+    "name": "Moksh Fernandes",
+    "branch": "ISE",
+    "cgpa": 9.83,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0237",
+    "name": "Nandini Fernandes",
+    "branch": "ECE",
+    "cgpa": 7.39,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0238",
+    "name": "Neha Fernandes",
+    "branch": "EEE",
+    "cgpa": 7.86,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0239",
+    "name": "Nikhil Fernandes",
+    "branch": "ME",
+    "cgpa": 8.33,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0240",
+    "name": "Nisha Fernandes",
+    "branch": "AI&DS",
+    "cgpa": 8.8,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0241",
+    "name": "Aarav Gowda",
+    "branch": "CSE",
+    "cgpa": 9.27,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0242",
+    "name": "Aisha Gowda",
+    "branch": "ISE",
+    "cgpa": 9.74,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0243",
+    "name": "Abhinav Gowda",
+    "branch": "ECE",
+    "cgpa": 7.3,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0244",
+    "name": "Aditya Gowda",
+    "branch": "EEE",
+    "cgpa": 7.77,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0245",
+    "name": "Akash Gowda",
+    "branch": "ME",
+    "cgpa": 8.24,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0246",
+    "name": "Akshay Gowda",
+    "branch": "AI&DS",
+    "cgpa": 8.71,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0247",
+    "name": "Ameya Gowda",
+    "branch": "CSE",
+    "cgpa": 9.18,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0248",
+    "name": "Ananya Gowda",
+    "branch": "ISE",
+    "cgpa": 9.65,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0249",
+    "name": "Anika Gowda",
+    "branch": "ECE",
+    "cgpa": 7.21,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0250",
+    "name": "Anirudh Gowda",
+    "branch": "EEE",
+    "cgpa": 7.68,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0251",
+    "name": "Arjun Gowda",
+    "branch": "ME",
+    "cgpa": 8.15,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0252",
+    "name": "Arnav Gowda",
+    "branch": "AI&DS",
+    "cgpa": 8.62,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0253",
+    "name": "Aryan Gowda",
+    "branch": "CSE",
+    "cgpa": 9.09,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0254",
+    "name": "Ashwin Gowda",
+    "branch": "ISE",
+    "cgpa": 9.56,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0255",
+    "name": "Avani Gowda",
+    "branch": "ECE",
+    "cgpa": 7.12,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0256",
+    "name": "Bhavya Gowda",
+    "branch": "EEE",
+    "cgpa": 7.59,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0257",
+    "name": "Chaitanya Gowda",
+    "branch": "ME",
+    "cgpa": 8.06,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0258",
+    "name": "Charan Gowda",
+    "branch": "AI&DS",
+    "cgpa": 8.53,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0259",
+    "name": "Diya Gowda",
+    "branch": "CSE",
+    "cgpa": 9.0,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0260",
+    "name": "Dhruv Gowda",
+    "branch": "ISE",
+    "cgpa": 9.47,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0261",
+    "name": "Esha Gowda",
+    "branch": "ECE",
+    "cgpa": 9.94,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0262",
+    "name": "Farhan Gowda",
+    "branch": "EEE",
+    "cgpa": 7.5,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0263",
+    "name": "Gaurav Gowda",
+    "branch": "ME",
+    "cgpa": 7.97,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0264",
+    "name": "Harini Gowda",
+    "branch": "AI&DS",
+    "cgpa": 8.44,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0265",
+    "name": "Ishaan Gowda",
+    "branch": "CSE",
+    "cgpa": 8.91,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0266",
+    "name": "Ishita Gowda",
+    "branch": "ISE",
+    "cgpa": 9.38,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0267",
+    "name": "Jai Gowda",
+    "branch": "ECE",
+    "cgpa": 9.85,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0268",
+    "name": "Karan Gowda",
+    "branch": "EEE",
+    "cgpa": 7.41,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0269",
+    "name": "Kavya Gowda",
+    "branch": "ME",
+    "cgpa": 7.88,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0270",
+    "name": "Kiran Gowda",
+    "branch": "AI&DS",
+    "cgpa": 8.35,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0271",
+    "name": "Krishna Gowda",
+    "branch": "CSE",
+    "cgpa": 8.82,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0272",
+    "name": "Lakshmi Gowda",
+    "branch": "ISE",
+    "cgpa": 9.29,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0273",
+    "name": "Manish Gowda",
+    "branch": "ECE",
+    "cgpa": 9.76,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0274",
+    "name": "Meera Gowda",
+    "branch": "EEE",
+    "cgpa": 7.32,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0275",
+    "name": "Mihir Gowda",
+    "branch": "ME",
+    "cgpa": 7.79,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0276",
+    "name": "Moksh Gowda",
+    "branch": "AI&DS",
+    "cgpa": 8.26,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0277",
+    "name": "Nandini Gowda",
+    "branch": "CSE",
+    "cgpa": 8.73,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0278",
+    "name": "Neha Gowda",
+    "branch": "ISE",
+    "cgpa": 9.2,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0279",
+    "name": "Nikhil Gowda",
+    "branch": "ECE",
+    "cgpa": 9.67,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0280",
+    "name": "Nisha Gowda",
+    "branch": "EEE",
+    "cgpa": 7.23,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0281",
+    "name": "Aarav Gupta",
+    "branch": "ME",
+    "cgpa": 7.7,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0282",
+    "name": "Aisha Gupta",
+    "branch": "AI&DS",
+    "cgpa": 8.17,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0283",
+    "name": "Abhinav Gupta",
+    "branch": "CSE",
+    "cgpa": 8.64,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0284",
+    "name": "Aditya Gupta",
+    "branch": "ISE",
+    "cgpa": 9.11,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0285",
+    "name": "Akash Gupta",
+    "branch": "ECE",
+    "cgpa": 9.58,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0286",
+    "name": "Akshay Gupta",
+    "branch": "EEE",
+    "cgpa": 7.14,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0287",
+    "name": "Ameya Gupta",
+    "branch": "ME",
+    "cgpa": 7.61,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0288",
+    "name": "Ananya Gupta",
+    "branch": "AI&DS",
+    "cgpa": 8.08,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0289",
+    "name": "Anika Gupta",
+    "branch": "CSE",
+    "cgpa": 8.55,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0290",
+    "name": "Anirudh Gupta",
+    "branch": "ISE",
+    "cgpa": 9.02,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0291",
+    "name": "Arjun Gupta",
+    "branch": "ECE",
+    "cgpa": 9.49,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0292",
+    "name": "Arnav Gupta",
+    "branch": "EEE",
+    "cgpa": 7.05,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0293",
+    "name": "Aryan Gupta",
+    "branch": "ME",
+    "cgpa": 7.52,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0294",
+    "name": "Ashwin Gupta",
+    "branch": "AI&DS",
+    "cgpa": 7.99,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0295",
+    "name": "Avani Gupta",
+    "branch": "CSE",
+    "cgpa": 8.46,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0296",
+    "name": "Bhavya Gupta",
+    "branch": "ISE",
+    "cgpa": 8.93,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0297",
+    "name": "Chaitanya Gupta",
+    "branch": "ECE",
+    "cgpa": 9.4,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0298",
+    "name": "Charan Gupta",
+    "branch": "EEE",
+    "cgpa": 9.87,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0299",
+    "name": "Diya Gupta",
+    "branch": "ME",
+    "cgpa": 7.43,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0300",
+    "name": "Dhruv Gupta",
+    "branch": "AI&DS",
+    "cgpa": 7.9,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0301",
+    "name": "Esha Gupta",
+    "branch": "CSE",
+    "cgpa": 8.37,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0302",
+    "name": "Farhan Gupta",
+    "branch": "ISE",
+    "cgpa": 8.84,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0303",
+    "name": "Gaurav Gupta",
+    "branch": "ECE",
+    "cgpa": 9.31,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0304",
+    "name": "Harini Gupta",
+    "branch": "EEE",
+    "cgpa": 9.78,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0305",
+    "name": "Ishaan Gupta",
+    "branch": "ME",
+    "cgpa": 7.34,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0306",
+    "name": "Ishita Gupta",
+    "branch": "AI&DS",
+    "cgpa": 7.81,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0307",
+    "name": "Jai Gupta",
+    "branch": "CSE",
+    "cgpa": 8.28,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0308",
+    "name": "Karan Gupta",
+    "branch": "ISE",
+    "cgpa": 8.75,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0309",
+    "name": "Kavya Gupta",
+    "branch": "ECE",
+    "cgpa": 9.22,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0310",
+    "name": "Kiran Gupta",
+    "branch": "EEE",
+    "cgpa": 9.69,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0311",
+    "name": "Krishna Gupta",
+    "branch": "ME",
+    "cgpa": 7.25,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0312",
+    "name": "Lakshmi Gupta",
+    "branch": "AI&DS",
+    "cgpa": 7.72,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0313",
+    "name": "Manish Gupta",
+    "branch": "CSE",
+    "cgpa": 8.19,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0314",
+    "name": "Meera Gupta",
+    "branch": "ISE",
+    "cgpa": 8.66,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0315",
+    "name": "Mihir Gupta",
+    "branch": "ECE",
+    "cgpa": 9.13,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0316",
+    "name": "Moksh Gupta",
+    "branch": "EEE",
+    "cgpa": 9.6,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0317",
+    "name": "Nandini Gupta",
+    "branch": "ME",
+    "cgpa": 7.16,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0318",
+    "name": "Neha Gupta",
+    "branch": "AI&DS",
+    "cgpa": 7.63,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0319",
+    "name": "Nikhil Gupta",
+    "branch": "CSE",
+    "cgpa": 8.1,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0320",
+    "name": "Nisha Gupta",
+    "branch": "ISE",
+    "cgpa": 8.57,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0321",
+    "name": "Aarav Iyer",
+    "branch": "ECE",
+    "cgpa": 9.04,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0322",
+    "name": "Aisha Iyer",
+    "branch": "EEE",
+    "cgpa": 9.51,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0323",
+    "name": "Abhinav Iyer",
+    "branch": "ME",
+    "cgpa": 7.07,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0324",
+    "name": "Aditya Iyer",
+    "branch": "AI&DS",
+    "cgpa": 7.54,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0325",
+    "name": "Akash Iyer",
+    "branch": "CSE",
+    "cgpa": 8.01,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0326",
+    "name": "Akshay Iyer",
+    "branch": "ISE",
+    "cgpa": 8.48,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0327",
+    "name": "Ameya Iyer",
+    "branch": "ECE",
+    "cgpa": 8.95,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0328",
+    "name": "Ananya Iyer",
+    "branch": "EEE",
+    "cgpa": 9.42,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0329",
+    "name": "Anika Iyer",
+    "branch": "ME",
+    "cgpa": 9.89,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0330",
+    "name": "Anirudh Iyer",
+    "branch": "AI&DS",
+    "cgpa": 7.45,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0331",
+    "name": "Arjun Iyer",
+    "branch": "CSE",
+    "cgpa": 7.92,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0332",
+    "name": "Arnav Iyer",
+    "branch": "ISE",
+    "cgpa": 8.39,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0333",
+    "name": "Aryan Iyer",
+    "branch": "ECE",
+    "cgpa": 8.86,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0334",
+    "name": "Ashwin Iyer",
+    "branch": "EEE",
+    "cgpa": 9.33,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0335",
+    "name": "Avani Iyer",
+    "branch": "ME",
+    "cgpa": 9.8,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0336",
+    "name": "Bhavya Iyer",
+    "branch": "AI&DS",
+    "cgpa": 7.36,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0337",
+    "name": "Chaitanya Iyer",
+    "branch": "CSE",
+    "cgpa": 7.83,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0338",
+    "name": "Charan Iyer",
+    "branch": "ISE",
+    "cgpa": 8.3,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0339",
+    "name": "Diya Iyer",
+    "branch": "ECE",
+    "cgpa": 8.77,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0340",
+    "name": "Dhruv Iyer",
+    "branch": "EEE",
+    "cgpa": 9.24,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0341",
+    "name": "Esha Iyer",
+    "branch": "ME",
+    "cgpa": 9.71,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0342",
+    "name": "Farhan Iyer",
+    "branch": "AI&DS",
+    "cgpa": 7.27,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0343",
+    "name": "Gaurav Iyer",
+    "branch": "CSE",
+    "cgpa": 7.74,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0344",
+    "name": "Harini Iyer",
+    "branch": "ISE",
+    "cgpa": 8.21,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0345",
+    "name": "Ishaan Iyer",
+    "branch": "ECE",
+    "cgpa": 8.68,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0346",
+    "name": "Ishita Iyer",
+    "branch": "EEE",
+    "cgpa": 9.15,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0347",
+    "name": "Jai Iyer",
+    "branch": "ME",
+    "cgpa": 9.62,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0348",
+    "name": "Karan Iyer",
+    "branch": "AI&DS",
+    "cgpa": 7.18,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0349",
+    "name": "Kavya Iyer",
+    "branch": "CSE",
+    "cgpa": 7.65,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0350",
+    "name": "Kiran Iyer",
+    "branch": "ISE",
+    "cgpa": 8.12,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0351",
+    "name": "Krishna Iyer",
+    "branch": "ECE",
+    "cgpa": 8.59,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0352",
+    "name": "Lakshmi Iyer",
+    "branch": "EEE",
+    "cgpa": 9.06,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0353",
+    "name": "Manish Iyer",
+    "branch": "ME",
+    "cgpa": 9.53,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0354",
+    "name": "Meera Iyer",
+    "branch": "AI&DS",
+    "cgpa": 7.09,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0355",
+    "name": "Mihir Iyer",
+    "branch": "CSE",
+    "cgpa": 7.56,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0356",
+    "name": "Moksh Iyer",
+    "branch": "ISE",
+    "cgpa": 8.03,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0357",
+    "name": "Nandini Iyer",
+    "branch": "ECE",
+    "cgpa": 8.5,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0358",
+    "name": "Neha Iyer",
+    "branch": "EEE",
+    "cgpa": 8.97,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0359",
+    "name": "Nikhil Iyer",
+    "branch": "ME",
+    "cgpa": 9.44,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0360",
+    "name": "Nisha Iyer",
+    "branch": "AI&DS",
+    "cgpa": 9.91,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0361",
+    "name": "Aarav Jain",
+    "branch": "CSE",
+    "cgpa": 7.47,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0362",
+    "name": "Aisha Jain",
+    "branch": "ISE",
+    "cgpa": 7.94,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0363",
+    "name": "Abhinav Jain",
+    "branch": "ECE",
+    "cgpa": 8.41,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0364",
+    "name": "Aditya Jain",
+    "branch": "EEE",
+    "cgpa": 8.88,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0365",
+    "name": "Akash Jain",
+    "branch": "ME",
+    "cgpa": 9.35,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0366",
+    "name": "Akshay Jain",
+    "branch": "AI&DS",
+    "cgpa": 9.82,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0367",
+    "name": "Ameya Jain",
+    "branch": "CSE",
+    "cgpa": 7.38,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0368",
+    "name": "Ananya Jain",
+    "branch": "ISE",
+    "cgpa": 7.85,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0369",
+    "name": "Anika Jain",
+    "branch": "ECE",
+    "cgpa": 8.32,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0370",
+    "name": "Anirudh Jain",
+    "branch": "EEE",
+    "cgpa": 8.79,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0371",
+    "name": "Arjun Jain",
+    "branch": "ME",
+    "cgpa": 9.26,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0372",
+    "name": "Arnav Jain",
+    "branch": "AI&DS",
+    "cgpa": 9.73,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0373",
+    "name": "Aryan Jain",
+    "branch": "CSE",
+    "cgpa": 7.29,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0374",
+    "name": "Ashwin Jain",
+    "branch": "ISE",
+    "cgpa": 7.76,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0375",
+    "name": "Avani Jain",
+    "branch": "ECE",
+    "cgpa": 8.23,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0376",
+    "name": "Bhavya Jain",
+    "branch": "EEE",
+    "cgpa": 8.7,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0377",
+    "name": "Chaitanya Jain",
+    "branch": "ME",
+    "cgpa": 9.17,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0378",
+    "name": "Charan Jain",
+    "branch": "AI&DS",
+    "cgpa": 9.64,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0379",
+    "name": "Diya Jain",
+    "branch": "CSE",
+    "cgpa": 7.2,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0380",
+    "name": "Dhruv Jain",
+    "branch": "ISE",
+    "cgpa": 7.67,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0381",
+    "name": "Esha Jain",
+    "branch": "ECE",
+    "cgpa": 8.14,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0382",
+    "name": "Farhan Jain",
+    "branch": "EEE",
+    "cgpa": 8.61,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0383",
+    "name": "Gaurav Jain",
+    "branch": "ME",
+    "cgpa": 9.08,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0384",
+    "name": "Harini Jain",
+    "branch": "AI&DS",
+    "cgpa": 9.55,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0385",
+    "name": "Ishaan Jain",
+    "branch": "CSE",
+    "cgpa": 7.11,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0386",
+    "name": "Ishita Jain",
+    "branch": "ISE",
+    "cgpa": 7.58,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0387",
+    "name": "Jai Jain",
+    "branch": "ECE",
+    "cgpa": 8.05,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0388",
+    "name": "Karan Jain",
+    "branch": "EEE",
+    "cgpa": 8.52,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0389",
+    "name": "Kavya Jain",
+    "branch": "ME",
+    "cgpa": 8.99,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0390",
+    "name": "Kiran Jain",
+    "branch": "AI&DS",
+    "cgpa": 9.46,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0391",
+    "name": "Krishna Jain",
+    "branch": "CSE",
+    "cgpa": 9.93,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0392",
+    "name": "Lakshmi Jain",
+    "branch": "ISE",
+    "cgpa": 7.49,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0393",
+    "name": "Manish Jain",
+    "branch": "ECE",
+    "cgpa": 7.96,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0394",
+    "name": "Meera Jain",
+    "branch": "EEE",
+    "cgpa": 8.43,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0395",
+    "name": "Mihir Jain",
+    "branch": "ME",
+    "cgpa": 8.9,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0396",
+    "name": "Moksh Jain",
+    "branch": "AI&DS",
+    "cgpa": 9.37,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0397",
+    "name": "Nandini Jain",
+    "branch": "CSE",
+    "cgpa": 9.84,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0398",
+    "name": "Neha Jain",
+    "branch": "ISE",
+    "cgpa": 7.4,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0399",
+    "name": "Nikhil Jain",
+    "branch": "ECE",
+    "cgpa": 7.87,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0400",
+    "name": "Nisha Jain",
+    "branch": "EEE",
+    "cgpa": 8.34,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0401",
+    "name": "Aarav Joshi",
+    "branch": "ME",
+    "cgpa": 8.81,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0402",
+    "name": "Aisha Joshi",
+    "branch": "AI&DS",
+    "cgpa": 9.28,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0403",
+    "name": "Abhinav Joshi",
+    "branch": "CSE",
+    "cgpa": 9.75,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0404",
+    "name": "Aditya Joshi",
+    "branch": "ISE",
+    "cgpa": 7.31,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0405",
+    "name": "Akash Joshi",
+    "branch": "ECE",
+    "cgpa": 7.78,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0406",
+    "name": "Akshay Joshi",
+    "branch": "EEE",
+    "cgpa": 8.25,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0407",
+    "name": "Ameya Joshi",
+    "branch": "ME",
+    "cgpa": 8.72,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0408",
+    "name": "Ananya Joshi",
+    "branch": "AI&DS",
+    "cgpa": 9.19,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0409",
+    "name": "Anika Joshi",
+    "branch": "CSE",
+    "cgpa": 9.66,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0410",
+    "name": "Anirudh Joshi",
+    "branch": "ISE",
+    "cgpa": 7.22,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0411",
+    "name": "Arjun Joshi",
+    "branch": "ECE",
+    "cgpa": 7.69,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0412",
+    "name": "Arnav Joshi",
+    "branch": "EEE",
+    "cgpa": 8.16,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0413",
+    "name": "Aryan Joshi",
+    "branch": "ME",
+    "cgpa": 8.63,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0414",
+    "name": "Ashwin Joshi",
+    "branch": "AI&DS",
+    "cgpa": 9.1,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0415",
+    "name": "Avani Joshi",
+    "branch": "CSE",
+    "cgpa": 9.57,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0416",
+    "name": "Bhavya Joshi",
+    "branch": "ISE",
+    "cgpa": 7.13,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0417",
+    "name": "Chaitanya Joshi",
+    "branch": "ECE",
+    "cgpa": 7.6,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0418",
+    "name": "Charan Joshi",
+    "branch": "EEE",
+    "cgpa": 8.07,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0419",
+    "name": "Diya Joshi",
+    "branch": "ME",
+    "cgpa": 8.54,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0420",
+    "name": "Dhruv Joshi",
+    "branch": "AI&DS",
+    "cgpa": 9.01,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0421",
+    "name": "Esha Joshi",
+    "branch": "CSE",
+    "cgpa": 9.48,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0422",
+    "name": "Farhan Joshi",
+    "branch": "ISE",
+    "cgpa": 9.95,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0423",
+    "name": "Gaurav Joshi",
+    "branch": "ECE",
+    "cgpa": 7.51,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0424",
+    "name": "Harini Joshi",
+    "branch": "EEE",
+    "cgpa": 7.98,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0425",
+    "name": "Ishaan Joshi",
+    "branch": "ME",
+    "cgpa": 8.45,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0426",
+    "name": "Ishita Joshi",
+    "branch": "AI&DS",
+    "cgpa": 8.92,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0427",
+    "name": "Jai Joshi",
+    "branch": "CSE",
+    "cgpa": 9.39,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0428",
+    "name": "Karan Joshi",
+    "branch": "ISE",
+    "cgpa": 9.86,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0429",
+    "name": "Kavya Joshi",
+    "branch": "ECE",
+    "cgpa": 7.42,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0430",
+    "name": "Kiran Joshi",
+    "branch": "EEE",
+    "cgpa": 7.89,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0431",
+    "name": "Krishna Joshi",
+    "branch": "ME",
+    "cgpa": 8.36,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0432",
+    "name": "Lakshmi Joshi",
+    "branch": "AI&DS",
+    "cgpa": 8.83,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0433",
+    "name": "Manish Joshi",
+    "branch": "CSE",
+    "cgpa": 9.3,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0434",
+    "name": "Meera Joshi",
+    "branch": "ISE",
+    "cgpa": 9.77,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0435",
+    "name": "Mihir Joshi",
+    "branch": "ECE",
+    "cgpa": 7.33,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0436",
+    "name": "Moksh Joshi",
+    "branch": "EEE",
+    "cgpa": 7.8,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0437",
+    "name": "Nandini Joshi",
+    "branch": "ME",
+    "cgpa": 8.27,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0438",
+    "name": "Neha Joshi",
+    "branch": "AI&DS",
+    "cgpa": 8.74,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0439",
+    "name": "Nikhil Joshi",
+    "branch": "CSE",
+    "cgpa": 9.21,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0440",
+    "name": "Nisha Joshi",
+    "branch": "ISE",
+    "cgpa": 9.68,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0441",
+    "name": "Aarav Kapoor",
+    "branch": "ECE",
+    "cgpa": 7.24,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0442",
+    "name": "Aisha Kapoor",
+    "branch": "EEE",
+    "cgpa": 7.71,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0443",
+    "name": "Abhinav Kapoor",
+    "branch": "ME",
+    "cgpa": 8.18,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0444",
+    "name": "Aditya Kapoor",
+    "branch": "AI&DS",
+    "cgpa": 8.65,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0445",
+    "name": "Akash Kapoor",
+    "branch": "CSE",
+    "cgpa": 9.12,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0446",
+    "name": "Akshay Kapoor",
+    "branch": "ISE",
+    "cgpa": 9.59,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0447",
+    "name": "Ameya Kapoor",
+    "branch": "ECE",
+    "cgpa": 7.15,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0448",
+    "name": "Ananya Kapoor",
+    "branch": "EEE",
+    "cgpa": 7.62,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0449",
+    "name": "Anika Kapoor",
+    "branch": "ME",
+    "cgpa": 8.09,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0450",
+    "name": "Anirudh Kapoor",
+    "branch": "AI&DS",
+    "cgpa": 8.56,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0451",
+    "name": "Arjun Kapoor",
+    "branch": "CSE",
+    "cgpa": 9.03,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0452",
+    "name": "Arnav Kapoor",
+    "branch": "ISE",
+    "cgpa": 9.5,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0453",
+    "name": "Aryan Kapoor",
+    "branch": "ECE",
+    "cgpa": 7.06,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0454",
+    "name": "Ashwin Kapoor",
+    "branch": "EEE",
+    "cgpa": 7.53,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0455",
+    "name": "Avani Kapoor",
+    "branch": "ME",
+    "cgpa": 8.0,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0456",
+    "name": "Bhavya Kapoor",
+    "branch": "AI&DS",
+    "cgpa": 8.47,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0457",
+    "name": "Chaitanya Kapoor",
+    "branch": "CSE",
+    "cgpa": 8.94,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0458",
+    "name": "Charan Kapoor",
+    "branch": "ISE",
+    "cgpa": 9.41,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0459",
+    "name": "Diya Kapoor",
+    "branch": "ECE",
+    "cgpa": 9.88,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0460",
+    "name": "Dhruv Kapoor",
+    "branch": "EEE",
+    "cgpa": 7.44,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0461",
+    "name": "Esha Kapoor",
+    "branch": "ME",
+    "cgpa": 7.91,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0462",
+    "name": "Farhan Kapoor",
+    "branch": "AI&DS",
+    "cgpa": 8.38,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0463",
+    "name": "Gaurav Kapoor",
+    "branch": "CSE",
+    "cgpa": 8.85,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0464",
+    "name": "Harini Kapoor",
+    "branch": "ISE",
+    "cgpa": 9.32,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0465",
+    "name": "Ishaan Kapoor",
+    "branch": "ECE",
+    "cgpa": 9.79,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0466",
+    "name": "Ishita Kapoor",
+    "branch": "EEE",
+    "cgpa": 7.35,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0467",
+    "name": "Jai Kapoor",
+    "branch": "ME",
+    "cgpa": 7.82,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0468",
+    "name": "Karan Kapoor",
+    "branch": "AI&DS",
+    "cgpa": 8.29,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0469",
+    "name": "Kavya Kapoor",
+    "branch": "CSE",
+    "cgpa": 8.76,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0470",
+    "name": "Kiran Kapoor",
+    "branch": "ISE",
+    "cgpa": 9.23,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0471",
+    "name": "Krishna Kapoor",
+    "branch": "ECE",
+    "cgpa": 9.7,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0472",
+    "name": "Lakshmi Kapoor",
+    "branch": "EEE",
+    "cgpa": 7.26,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0473",
+    "name": "Manish Kapoor",
+    "branch": "ME",
+    "cgpa": 7.73,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0474",
+    "name": "Meera Kapoor",
+    "branch": "AI&DS",
+    "cgpa": 8.2,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0475",
+    "name": "Mihir Kapoor",
+    "branch": "CSE",
+    "cgpa": 8.67,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0476",
+    "name": "Moksh Kapoor",
+    "branch": "ISE",
+    "cgpa": 9.14,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0477",
+    "name": "Nandini Kapoor",
+    "branch": "ECE",
+    "cgpa": 9.61,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0478",
+    "name": "Neha Kapoor",
+    "branch": "EEE",
+    "cgpa": 7.17,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0479",
+    "name": "Nikhil Kapoor",
+    "branch": "ME",
+    "cgpa": 7.64,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0480",
+    "name": "Nisha Kapoor",
+    "branch": "AI&DS",
+    "cgpa": 8.11,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0481",
+    "name": "Aarav Kulkarni",
+    "branch": "CSE",
+    "cgpa": 8.58,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0482",
+    "name": "Aisha Kulkarni",
+    "branch": "ISE",
+    "cgpa": 9.05,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0483",
+    "name": "Abhinav Kulkarni",
+    "branch": "ECE",
+    "cgpa": 9.52,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0484",
+    "name": "Aditya Kulkarni",
+    "branch": "EEE",
+    "cgpa": 7.08,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0485",
+    "name": "Akash Kulkarni",
+    "branch": "ME",
+    "cgpa": 7.55,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0486",
+    "name": "Akshay Kulkarni",
+    "branch": "AI&DS",
+    "cgpa": 8.02,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0487",
+    "name": "Ameya Kulkarni",
+    "branch": "CSE",
+    "cgpa": 8.49,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0488",
+    "name": "Ananya Kulkarni",
+    "branch": "ISE",
+    "cgpa": 8.96,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0489",
+    "name": "Anika Kulkarni",
+    "branch": "ECE",
+    "cgpa": 9.43,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0490",
+    "name": "Anirudh Kulkarni",
+    "branch": "EEE",
+    "cgpa": 9.9,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0491",
+    "name": "Arjun Kulkarni",
+    "branch": "ME",
+    "cgpa": 7.46,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0492",
+    "name": "Arnav Kulkarni",
+    "branch": "AI&DS",
+    "cgpa": 7.93,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0493",
+    "name": "Aryan Kulkarni",
+    "branch": "CSE",
+    "cgpa": 8.4,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0494",
+    "name": "Ashwin Kulkarni",
+    "branch": "ISE",
+    "cgpa": 8.87,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0495",
+    "name": "Avani Kulkarni",
+    "branch": "ECE",
+    "cgpa": 9.34,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0496",
+    "name": "Bhavya Kulkarni",
+    "branch": "EEE",
+    "cgpa": 9.81,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0497",
+    "name": "Chaitanya Kulkarni",
+    "branch": "ME",
+    "cgpa": 7.37,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0498",
+    "name": "Charan Kulkarni",
+    "branch": "AI&DS",
+    "cgpa": 7.84,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0499",
+    "name": "Diya Kulkarni",
+    "branch": "CSE",
+    "cgpa": 8.31,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0500",
+    "name": "Dhruv Kulkarni",
+    "branch": "ISE",
+    "cgpa": 8.78,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0501",
+    "name": "Esha Kulkarni",
+    "branch": "ECE",
+    "cgpa": 9.25,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0502",
+    "name": "Farhan Kulkarni",
+    "branch": "EEE",
+    "cgpa": 9.72,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0503",
+    "name": "Gaurav Kulkarni",
+    "branch": "ME",
+    "cgpa": 7.28,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0504",
+    "name": "Harini Kulkarni",
+    "branch": "AI&DS",
+    "cgpa": 7.75,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0505",
+    "name": "Ishaan Kulkarni",
+    "branch": "CSE",
+    "cgpa": 8.22,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0506",
+    "name": "Ishita Kulkarni",
+    "branch": "ISE",
+    "cgpa": 8.69,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0507",
+    "name": "Jai Kulkarni",
+    "branch": "ECE",
+    "cgpa": 9.16,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0508",
+    "name": "Karan Kulkarni",
+    "branch": "EEE",
+    "cgpa": 9.63,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0509",
+    "name": "Kavya Kulkarni",
+    "branch": "ME",
+    "cgpa": 7.19,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0510",
+    "name": "Kiran Kulkarni",
+    "branch": "AI&DS",
+    "cgpa": 7.66,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0511",
+    "name": "Krishna Kulkarni",
+    "branch": "CSE",
+    "cgpa": 8.13,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0512",
+    "name": "Lakshmi Kulkarni",
+    "branch": "ISE",
+    "cgpa": 8.6,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0513",
+    "name": "Manish Kulkarni",
+    "branch": "ECE",
+    "cgpa": 9.07,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0514",
+    "name": "Meera Kulkarni",
+    "branch": "EEE",
+    "cgpa": 9.54,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0515",
+    "name": "Mihir Kulkarni",
+    "branch": "ME",
+    "cgpa": 7.1,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0516",
+    "name": "Moksh Kulkarni",
+    "branch": "AI&DS",
+    "cgpa": 7.57,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0517",
+    "name": "Nandini Kulkarni",
+    "branch": "CSE",
+    "cgpa": 8.04,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0518",
+    "name": "Neha Kulkarni",
+    "branch": "ISE",
+    "cgpa": 8.51,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0519",
+    "name": "Nikhil Kulkarni",
+    "branch": "ECE",
+    "cgpa": 8.98,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0520",
+    "name": "Nisha Kulkarni",
+    "branch": "EEE",
+    "cgpa": 9.45,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0521",
+    "name": "Aarav Malhotra",
+    "branch": "ME",
+    "cgpa": 9.92,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0522",
+    "name": "Aisha Malhotra",
+    "branch": "AI&DS",
+    "cgpa": 7.48,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0523",
+    "name": "Abhinav Malhotra",
+    "branch": "CSE",
+    "cgpa": 7.95,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0524",
+    "name": "Aditya Malhotra",
+    "branch": "ISE",
+    "cgpa": 8.42,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0525",
+    "name": "Akash Malhotra",
+    "branch": "ECE",
+    "cgpa": 8.89,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0526",
+    "name": "Akshay Malhotra",
+    "branch": "EEE",
+    "cgpa": 9.36,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0527",
+    "name": "Ameya Malhotra",
+    "branch": "ME",
+    "cgpa": 9.83,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0528",
+    "name": "Ananya Malhotra",
+    "branch": "AI&DS",
+    "cgpa": 7.39,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0529",
+    "name": "Anika Malhotra",
+    "branch": "CSE",
+    "cgpa": 7.86,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0530",
+    "name": "Anirudh Malhotra",
+    "branch": "ISE",
+    "cgpa": 8.33,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0531",
+    "name": "Arjun Malhotra",
+    "branch": "ECE",
+    "cgpa": 8.8,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0532",
+    "name": "Arnav Malhotra",
+    "branch": "EEE",
+    "cgpa": 9.27,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0533",
+    "name": "Aryan Malhotra",
+    "branch": "ME",
+    "cgpa": 9.74,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0534",
+    "name": "Ashwin Malhotra",
+    "branch": "AI&DS",
+    "cgpa": 7.3,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0535",
+    "name": "Avani Malhotra",
+    "branch": "CSE",
+    "cgpa": 7.77,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0536",
+    "name": "Bhavya Malhotra",
+    "branch": "ISE",
+    "cgpa": 8.24,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0537",
+    "name": "Chaitanya Malhotra",
+    "branch": "ECE",
+    "cgpa": 8.71,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0538",
+    "name": "Charan Malhotra",
+    "branch": "EEE",
+    "cgpa": 9.18,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0539",
+    "name": "Diya Malhotra",
+    "branch": "ME",
+    "cgpa": 9.65,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0540",
+    "name": "Dhruv Malhotra",
+    "branch": "AI&DS",
+    "cgpa": 7.21,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0541",
+    "name": "Esha Malhotra",
+    "branch": "CSE",
+    "cgpa": 7.68,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0542",
+    "name": "Farhan Malhotra",
+    "branch": "ISE",
+    "cgpa": 8.15,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0543",
+    "name": "Gaurav Malhotra",
+    "branch": "ECE",
+    "cgpa": 8.62,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0544",
+    "name": "Harini Malhotra",
+    "branch": "EEE",
+    "cgpa": 9.09,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0545",
+    "name": "Ishaan Malhotra",
+    "branch": "ME",
+    "cgpa": 9.56,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0546",
+    "name": "Ishita Malhotra",
+    "branch": "AI&DS",
+    "cgpa": 7.12,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0547",
+    "name": "Jai Malhotra",
+    "branch": "CSE",
+    "cgpa": 7.59,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0548",
+    "name": "Karan Malhotra",
+    "branch": "ISE",
+    "cgpa": 8.06,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0549",
+    "name": "Kavya Malhotra",
+    "branch": "ECE",
+    "cgpa": 8.53,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0550",
+    "name": "Kiran Malhotra",
+    "branch": "EEE",
+    "cgpa": 9.0,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0551",
+    "name": "Krishna Malhotra",
+    "branch": "ME",
+    "cgpa": 9.47,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0552",
+    "name": "Lakshmi Malhotra",
+    "branch": "AI&DS",
+    "cgpa": 9.94,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0553",
+    "name": "Manish Malhotra",
+    "branch": "CSE",
+    "cgpa": 7.5,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0554",
+    "name": "Meera Malhotra",
+    "branch": "ISE",
+    "cgpa": 7.97,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0555",
+    "name": "Mihir Malhotra",
+    "branch": "ECE",
+    "cgpa": 8.44,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0556",
+    "name": "Moksh Malhotra",
+    "branch": "EEE",
+    "cgpa": 8.91,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0557",
+    "name": "Nandini Malhotra",
+    "branch": "ME",
+    "cgpa": 9.38,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0558",
+    "name": "Neha Malhotra",
+    "branch": "AI&DS",
+    "cgpa": 9.85,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0559",
+    "name": "Nikhil Malhotra",
+    "branch": "CSE",
+    "cgpa": 7.41,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0560",
+    "name": "Nisha Malhotra",
+    "branch": "ISE",
+    "cgpa": 7.88,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0561",
+    "name": "Aarav Menon",
+    "branch": "ECE",
+    "cgpa": 8.35,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0562",
+    "name": "Aisha Menon",
+    "branch": "EEE",
+    "cgpa": 8.82,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0563",
+    "name": "Abhinav Menon",
+    "branch": "ME",
+    "cgpa": 9.29,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0564",
+    "name": "Aditya Menon",
+    "branch": "AI&DS",
+    "cgpa": 9.76,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0565",
+    "name": "Akash Menon",
+    "branch": "CSE",
+    "cgpa": 7.32,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0566",
+    "name": "Akshay Menon",
+    "branch": "ISE",
+    "cgpa": 7.79,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0567",
+    "name": "Ameya Menon",
+    "branch": "ECE",
+    "cgpa": 8.26,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0568",
+    "name": "Ananya Menon",
+    "branch": "EEE",
+    "cgpa": 8.73,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0569",
+    "name": "Anika Menon",
+    "branch": "ME",
+    "cgpa": 9.2,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0570",
+    "name": "Anirudh Menon",
+    "branch": "AI&DS",
+    "cgpa": 9.67,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0571",
+    "name": "Arjun Menon",
+    "branch": "CSE",
+    "cgpa": 7.23,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0572",
+    "name": "Arnav Menon",
+    "branch": "ISE",
+    "cgpa": 7.7,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0573",
+    "name": "Aryan Menon",
+    "branch": "ECE",
+    "cgpa": 8.17,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0574",
+    "name": "Ashwin Menon",
+    "branch": "EEE",
+    "cgpa": 8.64,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0575",
+    "name": "Avani Menon",
+    "branch": "ME",
+    "cgpa": 9.11,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0576",
+    "name": "Bhavya Menon",
+    "branch": "AI&DS",
+    "cgpa": 9.58,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0577",
+    "name": "Chaitanya Menon",
+    "branch": "CSE",
+    "cgpa": 7.14,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0578",
+    "name": "Charan Menon",
+    "branch": "ISE",
+    "cgpa": 7.61,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0579",
+    "name": "Diya Menon",
+    "branch": "ECE",
+    "cgpa": 8.08,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0580",
+    "name": "Dhruv Menon",
+    "branch": "EEE",
+    "cgpa": 8.55,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0581",
+    "name": "Esha Menon",
+    "branch": "ME",
+    "cgpa": 9.02,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0582",
+    "name": "Farhan Menon",
+    "branch": "AI&DS",
+    "cgpa": 9.49,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0583",
+    "name": "Gaurav Menon",
+    "branch": "CSE",
+    "cgpa": 7.05,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0584",
+    "name": "Harini Menon",
+    "branch": "ISE",
+    "cgpa": 7.52,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0585",
+    "name": "Ishaan Menon",
+    "branch": "ECE",
+    "cgpa": 7.99,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0586",
+    "name": "Ishita Menon",
+    "branch": "EEE",
+    "cgpa": 8.46,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0587",
+    "name": "Jai Menon",
+    "branch": "ME",
+    "cgpa": 8.93,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0588",
+    "name": "Karan Menon",
+    "branch": "AI&DS",
+    "cgpa": 9.4,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0589",
+    "name": "Kavya Menon",
+    "branch": "CSE",
+    "cgpa": 9.87,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0590",
+    "name": "Kiran Menon",
+    "branch": "ISE",
+    "cgpa": 7.43,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0591",
+    "name": "Krishna Menon",
+    "branch": "ECE",
+    "cgpa": 7.9,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0592",
+    "name": "Lakshmi Menon",
+    "branch": "EEE",
+    "cgpa": 8.37,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0593",
+    "name": "Manish Menon",
+    "branch": "ME",
+    "cgpa": 8.84,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0594",
+    "name": "Meera Menon",
+    "branch": "AI&DS",
+    "cgpa": 9.31,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0595",
+    "name": "Mihir Menon",
+    "branch": "CSE",
+    "cgpa": 9.78,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0596",
+    "name": "Moksh Menon",
+    "branch": "ISE",
+    "cgpa": 7.34,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0597",
+    "name": "Nandini Menon",
+    "branch": "ECE",
+    "cgpa": 7.81,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0598",
+    "name": "Neha Menon",
+    "branch": "EEE",
+    "cgpa": 8.28,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0599",
+    "name": "Nikhil Menon",
+    "branch": "ME",
+    "cgpa": 8.75,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0600",
+    "name": "Nisha Menon",
+    "branch": "AI&DS",
+    "cgpa": 9.22,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0601",
+    "name": "Aarav Mishra",
+    "branch": "CSE",
+    "cgpa": 9.69,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0602",
+    "name": "Aisha Mishra",
+    "branch": "ISE",
+    "cgpa": 7.25,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0603",
+    "name": "Abhinav Mishra",
+    "branch": "ECE",
+    "cgpa": 7.72,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0604",
+    "name": "Aditya Mishra",
+    "branch": "EEE",
+    "cgpa": 8.19,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0605",
+    "name": "Akash Mishra",
+    "branch": "ME",
+    "cgpa": 8.66,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0606",
+    "name": "Akshay Mishra",
+    "branch": "AI&DS",
+    "cgpa": 9.13,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0607",
+    "name": "Ameya Mishra",
+    "branch": "CSE",
+    "cgpa": 9.6,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0608",
+    "name": "Ananya Mishra",
+    "branch": "ISE",
+    "cgpa": 7.16,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0609",
+    "name": "Anika Mishra",
+    "branch": "ECE",
+    "cgpa": 7.63,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0610",
+    "name": "Anirudh Mishra",
+    "branch": "EEE",
+    "cgpa": 8.1,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0611",
+    "name": "Arjun Mishra",
+    "branch": "ME",
+    "cgpa": 8.57,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0612",
+    "name": "Arnav Mishra",
+    "branch": "AI&DS",
+    "cgpa": 9.04,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0613",
+    "name": "Aryan Mishra",
+    "branch": "CSE",
+    "cgpa": 9.51,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0614",
+    "name": "Ashwin Mishra",
+    "branch": "ISE",
+    "cgpa": 7.07,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0615",
+    "name": "Avani Mishra",
+    "branch": "ECE",
+    "cgpa": 7.54,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0616",
+    "name": "Bhavya Mishra",
+    "branch": "EEE",
+    "cgpa": 8.01,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0617",
+    "name": "Chaitanya Mishra",
+    "branch": "ME",
+    "cgpa": 8.48,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0618",
+    "name": "Charan Mishra",
+    "branch": "AI&DS",
+    "cgpa": 8.95,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0619",
+    "name": "Diya Mishra",
+    "branch": "CSE",
+    "cgpa": 9.42,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0620",
+    "name": "Dhruv Mishra",
+    "branch": "ISE",
+    "cgpa": 9.89,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0621",
+    "name": "Esha Mishra",
+    "branch": "ECE",
+    "cgpa": 7.45,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0622",
+    "name": "Farhan Mishra",
+    "branch": "EEE",
+    "cgpa": 7.92,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0623",
+    "name": "Gaurav Mishra",
+    "branch": "ME",
+    "cgpa": 8.39,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0624",
+    "name": "Harini Mishra",
+    "branch": "AI&DS",
+    "cgpa": 8.86,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0625",
+    "name": "Ishaan Mishra",
+    "branch": "CSE",
+    "cgpa": 9.33,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0626",
+    "name": "Ishita Mishra",
+    "branch": "ISE",
+    "cgpa": 9.8,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0627",
+    "name": "Jai Mishra",
+    "branch": "ECE",
+    "cgpa": 7.36,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0628",
+    "name": "Karan Mishra",
+    "branch": "EEE",
+    "cgpa": 7.83,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0629",
+    "name": "Kavya Mishra",
+    "branch": "ME",
+    "cgpa": 8.3,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0630",
+    "name": "Kiran Mishra",
+    "branch": "AI&DS",
+    "cgpa": 8.77,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0631",
+    "name": "Krishna Mishra",
+    "branch": "CSE",
+    "cgpa": 9.24,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0632",
+    "name": "Lakshmi Mishra",
+    "branch": "ISE",
+    "cgpa": 9.71,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0633",
+    "name": "Manish Mishra",
+    "branch": "ECE",
+    "cgpa": 7.27,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0634",
+    "name": "Meera Mishra",
+    "branch": "EEE",
+    "cgpa": 7.74,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0635",
+    "name": "Mihir Mishra",
+    "branch": "ME",
+    "cgpa": 8.21,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0636",
+    "name": "Moksh Mishra",
+    "branch": "AI&DS",
+    "cgpa": 8.68,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0637",
+    "name": "Nandini Mishra",
+    "branch": "CSE",
+    "cgpa": 9.15,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0638",
+    "name": "Neha Mishra",
+    "branch": "ISE",
+    "cgpa": 9.62,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0639",
+    "name": "Nikhil Mishra",
+    "branch": "ECE",
+    "cgpa": 7.18,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0640",
+    "name": "Nisha Mishra",
+    "branch": "EEE",
+    "cgpa": 7.65,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0641",
+    "name": "Aarav Mukherjee",
+    "branch": "ME",
+    "cgpa": 8.12,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0642",
+    "name": "Aisha Mukherjee",
+    "branch": "AI&DS",
+    "cgpa": 8.59,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0643",
+    "name": "Abhinav Mukherjee",
+    "branch": "CSE",
+    "cgpa": 9.06,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0644",
+    "name": "Aditya Mukherjee",
+    "branch": "ISE",
+    "cgpa": 9.53,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0645",
+    "name": "Akash Mukherjee",
+    "branch": "ECE",
+    "cgpa": 7.09,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0646",
+    "name": "Akshay Mukherjee",
+    "branch": "EEE",
+    "cgpa": 7.56,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0647",
+    "name": "Ameya Mukherjee",
+    "branch": "ME",
+    "cgpa": 8.03,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0648",
+    "name": "Ananya Mukherjee",
+    "branch": "AI&DS",
+    "cgpa": 8.5,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0649",
+    "name": "Anika Mukherjee",
+    "branch": "CSE",
+    "cgpa": 8.97,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0650",
+    "name": "Anirudh Mukherjee",
+    "branch": "ISE",
+    "cgpa": 9.44,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0651",
+    "name": "Arjun Mukherjee",
+    "branch": "ECE",
+    "cgpa": 9.91,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0652",
+    "name": "Arnav Mukherjee",
+    "branch": "EEE",
+    "cgpa": 7.47,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0653",
+    "name": "Aryan Mukherjee",
+    "branch": "ME",
+    "cgpa": 7.94,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0654",
+    "name": "Ashwin Mukherjee",
+    "branch": "AI&DS",
+    "cgpa": 8.41,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0655",
+    "name": "Avani Mukherjee",
+    "branch": "CSE",
+    "cgpa": 8.88,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0656",
+    "name": "Bhavya Mukherjee",
+    "branch": "ISE",
+    "cgpa": 9.35,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0657",
+    "name": "Chaitanya Mukherjee",
+    "branch": "ECE",
+    "cgpa": 9.82,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0658",
+    "name": "Charan Mukherjee",
+    "branch": "EEE",
+    "cgpa": 7.38,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0659",
+    "name": "Diya Mukherjee",
+    "branch": "ME",
+    "cgpa": 7.85,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0660",
+    "name": "Dhruv Mukherjee",
+    "branch": "AI&DS",
+    "cgpa": 8.32,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0661",
+    "name": "Esha Mukherjee",
+    "branch": "CSE",
+    "cgpa": 8.79,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0662",
+    "name": "Farhan Mukherjee",
+    "branch": "ISE",
+    "cgpa": 9.26,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0663",
+    "name": "Gaurav Mukherjee",
+    "branch": "ECE",
+    "cgpa": 9.73,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0664",
+    "name": "Harini Mukherjee",
+    "branch": "EEE",
+    "cgpa": 7.29,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0665",
+    "name": "Ishaan Mukherjee",
+    "branch": "ME",
+    "cgpa": 7.76,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0666",
+    "name": "Ishita Mukherjee",
+    "branch": "AI&DS",
+    "cgpa": 8.23,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0667",
+    "name": "Jai Mukherjee",
+    "branch": "CSE",
+    "cgpa": 8.7,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0668",
+    "name": "Karan Mukherjee",
+    "branch": "ISE",
+    "cgpa": 9.17,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0669",
+    "name": "Kavya Mukherjee",
+    "branch": "ECE",
+    "cgpa": 9.64,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0670",
+    "name": "Kiran Mukherjee",
+    "branch": "EEE",
+    "cgpa": 7.2,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0671",
+    "name": "Krishna Mukherjee",
+    "branch": "ME",
+    "cgpa": 7.67,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0672",
+    "name": "Lakshmi Mukherjee",
+    "branch": "AI&DS",
+    "cgpa": 8.14,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0673",
+    "name": "Manish Mukherjee",
+    "branch": "CSE",
+    "cgpa": 8.61,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0674",
+    "name": "Meera Mukherjee",
+    "branch": "ISE",
+    "cgpa": 9.08,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0675",
+    "name": "Mihir Mukherjee",
+    "branch": "ECE",
+    "cgpa": 9.55,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0676",
+    "name": "Moksh Mukherjee",
+    "branch": "EEE",
+    "cgpa": 7.11,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0677",
+    "name": "Nandini Mukherjee",
+    "branch": "ME",
+    "cgpa": 7.58,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0678",
+    "name": "Neha Mukherjee",
+    "branch": "AI&DS",
+    "cgpa": 8.05,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0679",
+    "name": "Nikhil Mukherjee",
+    "branch": "CSE",
+    "cgpa": 8.52,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0680",
+    "name": "Nisha Mukherjee",
+    "branch": "ISE",
+    "cgpa": 8.99,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0681",
+    "name": "Aarav Nair",
+    "branch": "ECE",
+    "cgpa": 9.46,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0682",
+    "name": "Aisha Nair",
+    "branch": "EEE",
+    "cgpa": 9.93,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0683",
+    "name": "Abhinav Nair",
+    "branch": "ME",
+    "cgpa": 7.49,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0684",
+    "name": "Aditya Nair",
+    "branch": "AI&DS",
+    "cgpa": 7.96,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0685",
+    "name": "Akash Nair",
+    "branch": "CSE",
+    "cgpa": 8.43,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0686",
+    "name": "Akshay Nair",
+    "branch": "ISE",
+    "cgpa": 8.9,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0687",
+    "name": "Ameya Nair",
+    "branch": "ECE",
+    "cgpa": 9.37,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0688",
+    "name": "Ananya Nair",
+    "branch": "EEE",
+    "cgpa": 9.84,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0689",
+    "name": "Anika Nair",
+    "branch": "ME",
+    "cgpa": 7.4,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0690",
+    "name": "Anirudh Nair",
+    "branch": "AI&DS",
+    "cgpa": 7.87,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0691",
+    "name": "Arjun Nair",
+    "branch": "CSE",
+    "cgpa": 8.34,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0692",
+    "name": "Arnav Nair",
+    "branch": "ISE",
+    "cgpa": 8.81,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0693",
+    "name": "Aryan Nair",
+    "branch": "ECE",
+    "cgpa": 9.28,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0694",
+    "name": "Ashwin Nair",
+    "branch": "EEE",
+    "cgpa": 9.75,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0695",
+    "name": "Avani Nair",
+    "branch": "ME",
+    "cgpa": 7.31,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0696",
+    "name": "Bhavya Nair",
+    "branch": "AI&DS",
+    "cgpa": 7.78,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0697",
+    "name": "Chaitanya Nair",
+    "branch": "CSE",
+    "cgpa": 8.25,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0698",
+    "name": "Charan Nair",
+    "branch": "ISE",
+    "cgpa": 8.72,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0699",
+    "name": "Diya Nair",
+    "branch": "ECE",
+    "cgpa": 9.19,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0700",
+    "name": "Dhruv Nair",
+    "branch": "EEE",
+    "cgpa": 9.66,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0701",
+    "name": "Esha Nair",
+    "branch": "ME",
+    "cgpa": 7.22,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0702",
+    "name": "Farhan Nair",
+    "branch": "AI&DS",
+    "cgpa": 7.69,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0703",
+    "name": "Gaurav Nair",
+    "branch": "CSE",
+    "cgpa": 8.16,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0704",
+    "name": "Harini Nair",
+    "branch": "ISE",
+    "cgpa": 8.63,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0705",
+    "name": "Ishaan Nair",
+    "branch": "ECE",
+    "cgpa": 9.1,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0706",
+    "name": "Ishita Nair",
+    "branch": "EEE",
+    "cgpa": 9.57,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0707",
+    "name": "Jai Nair",
+    "branch": "ME",
+    "cgpa": 7.13,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0708",
+    "name": "Karan Nair",
+    "branch": "AI&DS",
+    "cgpa": 7.6,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0709",
+    "name": "Kavya Nair",
+    "branch": "CSE",
+    "cgpa": 8.07,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0710",
+    "name": "Kiran Nair",
+    "branch": "ISE",
+    "cgpa": 8.54,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0711",
+    "name": "Krishna Nair",
+    "branch": "ECE",
+    "cgpa": 9.01,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0712",
+    "name": "Lakshmi Nair",
+    "branch": "EEE",
+    "cgpa": 9.48,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0713",
+    "name": "Manish Nair",
+    "branch": "ME",
+    "cgpa": 9.95,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0714",
+    "name": "Meera Nair",
+    "branch": "AI&DS",
+    "cgpa": 7.51,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0715",
+    "name": "Mihir Nair",
+    "branch": "CSE",
+    "cgpa": 7.98,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0716",
+    "name": "Moksh Nair",
+    "branch": "ISE",
+    "cgpa": 8.45,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0717",
+    "name": "Nandini Nair",
+    "branch": "ECE",
+    "cgpa": 8.92,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0718",
+    "name": "Neha Nair",
+    "branch": "EEE",
+    "cgpa": 9.39,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0719",
+    "name": "Nikhil Nair",
+    "branch": "ME",
+    "cgpa": 9.86,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0720",
+    "name": "Nisha Nair",
+    "branch": "AI&DS",
+    "cgpa": 7.42,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0721",
+    "name": "Aarav Naik",
+    "branch": "CSE",
+    "cgpa": 7.89,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0722",
+    "name": "Aisha Naik",
+    "branch": "ISE",
+    "cgpa": 8.36,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0723",
+    "name": "Abhinav Naik",
+    "branch": "ECE",
+    "cgpa": 8.83,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0724",
+    "name": "Aditya Naik",
+    "branch": "EEE",
+    "cgpa": 9.3,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0725",
+    "name": "Akash Naik",
+    "branch": "ME",
+    "cgpa": 9.77,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0726",
+    "name": "Akshay Naik",
+    "branch": "AI&DS",
+    "cgpa": 7.33,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0727",
+    "name": "Ameya Naik",
+    "branch": "CSE",
+    "cgpa": 7.8,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0728",
+    "name": "Ananya Naik",
+    "branch": "ISE",
+    "cgpa": 8.27,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0729",
+    "name": "Anika Naik",
+    "branch": "ECE",
+    "cgpa": 8.74,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0730",
+    "name": "Anirudh Naik",
+    "branch": "EEE",
+    "cgpa": 9.21,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0731",
+    "name": "Arjun Naik",
+    "branch": "ME",
+    "cgpa": 9.68,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0732",
+    "name": "Arnav Naik",
+    "branch": "AI&DS",
+    "cgpa": 7.24,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0733",
+    "name": "Aryan Naik",
+    "branch": "CSE",
+    "cgpa": 7.71,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0734",
+    "name": "Ashwin Naik",
+    "branch": "ISE",
+    "cgpa": 8.18,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0735",
+    "name": "Avani Naik",
+    "branch": "ECE",
+    "cgpa": 8.65,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0736",
+    "name": "Bhavya Naik",
+    "branch": "EEE",
+    "cgpa": 9.12,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0737",
+    "name": "Chaitanya Naik",
+    "branch": "ME",
+    "cgpa": 9.59,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0738",
+    "name": "Charan Naik",
+    "branch": "AI&DS",
+    "cgpa": 7.15,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0739",
+    "name": "Diya Naik",
+    "branch": "CSE",
+    "cgpa": 7.62,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0740",
+    "name": "Dhruv Naik",
+    "branch": "ISE",
+    "cgpa": 8.09,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0741",
+    "name": "Esha Naik",
+    "branch": "ECE",
+    "cgpa": 8.56,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0742",
+    "name": "Farhan Naik",
+    "branch": "EEE",
+    "cgpa": 9.03,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0743",
+    "name": "Gaurav Naik",
+    "branch": "ME",
+    "cgpa": 9.5,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0744",
+    "name": "Harini Naik",
+    "branch": "AI&DS",
+    "cgpa": 7.06,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0745",
+    "name": "Ishaan Naik",
+    "branch": "CSE",
+    "cgpa": 7.53,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0746",
+    "name": "Ishita Naik",
+    "branch": "ISE",
+    "cgpa": 8.0,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0747",
+    "name": "Jai Naik",
+    "branch": "ECE",
+    "cgpa": 8.47,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0748",
+    "name": "Karan Naik",
+    "branch": "EEE",
+    "cgpa": 8.94,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0749",
+    "name": "Kavya Naik",
+    "branch": "ME",
+    "cgpa": 9.41,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0750",
+    "name": "Kiran Naik",
+    "branch": "AI&DS",
+    "cgpa": 9.88,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0751",
+    "name": "Krishna Naik",
+    "branch": "CSE",
+    "cgpa": 7.44,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0752",
+    "name": "Lakshmi Naik",
+    "branch": "ISE",
+    "cgpa": 7.91,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0753",
+    "name": "Manish Naik",
+    "branch": "ECE",
+    "cgpa": 8.38,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0754",
+    "name": "Meera Naik",
+    "branch": "EEE",
+    "cgpa": 8.85,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0755",
+    "name": "Mihir Naik",
+    "branch": "ME",
+    "cgpa": 9.32,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0756",
+    "name": "Moksh Naik",
+    "branch": "AI&DS",
+    "cgpa": 9.79,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0757",
+    "name": "Nandini Naik",
+    "branch": "CSE",
+    "cgpa": 7.35,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0758",
+    "name": "Neha Naik",
+    "branch": "ISE",
+    "cgpa": 7.82,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0759",
+    "name": "Nikhil Naik",
+    "branch": "ECE",
+    "cgpa": 8.29,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0760",
+    "name": "Nisha Naik",
+    "branch": "EEE",
+    "cgpa": 8.76,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0761",
+    "name": "Aarav Patil",
+    "branch": "ME",
+    "cgpa": 9.23,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0762",
+    "name": "Aisha Patil",
+    "branch": "AI&DS",
+    "cgpa": 9.7,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0763",
+    "name": "Abhinav Patil",
+    "branch": "CSE",
+    "cgpa": 7.26,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0764",
+    "name": "Aditya Patil",
+    "branch": "ISE",
+    "cgpa": 7.73,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0765",
+    "name": "Akash Patil",
+    "branch": "ECE",
+    "cgpa": 8.2,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0766",
+    "name": "Akshay Patil",
+    "branch": "EEE",
+    "cgpa": 8.67,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0767",
+    "name": "Ameya Patil",
+    "branch": "ME",
+    "cgpa": 9.14,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0768",
+    "name": "Ananya Patil",
+    "branch": "AI&DS",
+    "cgpa": 9.61,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0769",
+    "name": "Anika Patil",
+    "branch": "CSE",
+    "cgpa": 7.17,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0770",
+    "name": "Anirudh Patil",
+    "branch": "ISE",
+    "cgpa": 7.64,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0771",
+    "name": "Arjun Patil",
+    "branch": "ECE",
+    "cgpa": 8.11,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0772",
+    "name": "Arnav Patil",
+    "branch": "EEE",
+    "cgpa": 8.58,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0773",
+    "name": "Aryan Patil",
+    "branch": "ME",
+    "cgpa": 9.05,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0774",
+    "name": "Ashwin Patil",
+    "branch": "AI&DS",
+    "cgpa": 9.52,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0775",
+    "name": "Avani Patil",
+    "branch": "CSE",
+    "cgpa": 7.08,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0776",
+    "name": "Bhavya Patil",
+    "branch": "ISE",
+    "cgpa": 7.55,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0777",
+    "name": "Chaitanya Patil",
+    "branch": "ECE",
+    "cgpa": 8.02,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0778",
+    "name": "Charan Patil",
+    "branch": "EEE",
+    "cgpa": 8.49,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0779",
+    "name": "Diya Patil",
+    "branch": "ME",
+    "cgpa": 8.96,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0780",
+    "name": "Dhruv Patil",
+    "branch": "AI&DS",
+    "cgpa": 9.43,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0781",
+    "name": "Esha Patil",
+    "branch": "CSE",
+    "cgpa": 9.9,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0782",
+    "name": "Farhan Patil",
+    "branch": "ISE",
+    "cgpa": 7.46,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0783",
+    "name": "Gaurav Patil",
+    "branch": "ECE",
+    "cgpa": 7.93,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0784",
+    "name": "Harini Patil",
+    "branch": "EEE",
+    "cgpa": 8.4,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0785",
+    "name": "Ishaan Patil",
+    "branch": "ME",
+    "cgpa": 8.87,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0786",
+    "name": "Ishita Patil",
+    "branch": "AI&DS",
+    "cgpa": 9.34,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0787",
+    "name": "Jai Patil",
+    "branch": "CSE",
+    "cgpa": 9.81,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0788",
+    "name": "Karan Patil",
+    "branch": "ISE",
+    "cgpa": 7.37,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0789",
+    "name": "Kavya Patil",
+    "branch": "ECE",
+    "cgpa": 7.84,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0790",
+    "name": "Kiran Patil",
+    "branch": "EEE",
+    "cgpa": 8.31,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0791",
+    "name": "Krishna Patil",
+    "branch": "ME",
+    "cgpa": 8.78,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0792",
+    "name": "Lakshmi Patil",
+    "branch": "AI&DS",
+    "cgpa": 9.25,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0793",
+    "name": "Manish Patil",
+    "branch": "CSE",
+    "cgpa": 9.72,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0794",
+    "name": "Meera Patil",
+    "branch": "ISE",
+    "cgpa": 7.28,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0795",
+    "name": "Mihir Patil",
+    "branch": "ECE",
+    "cgpa": 7.75,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0796",
+    "name": "Moksh Patil",
+    "branch": "EEE",
+    "cgpa": 8.22,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0797",
+    "name": "Nandini Patil",
+    "branch": "ME",
+    "cgpa": 8.69,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0798",
+    "name": "Neha Patil",
+    "branch": "AI&DS",
+    "cgpa": 9.16,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0799",
+    "name": "Nikhil Patil",
+    "branch": "CSE",
+    "cgpa": 9.63,
+    "status": "Eligible"
+  },
+  {
+    "studentCode": "STU-0800",
+    "name": "Nisha Patil",
+    "branch": "ISE",
+    "cgpa": 7.19,
+    "status": "Eligible"
+  }
+]
