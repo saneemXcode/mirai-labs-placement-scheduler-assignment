@@ -67,7 +67,7 @@ export async function buildSchedule(options = {}) {
   // targetCount = Math.max(minRequired, Math.min(maxAllowed, targetCount));
 
 
-const rawTarget = Number(config?.targetPercent);
+  const rawTarget = Number(config?.targetPercent);
   const targetPercent = Number.isFinite(rawTarget) ? Math.min(80, Math.max(70.1, rawTarget)) : 75;
   const maxAllowed = Math.floor(active.length * 0.8);
   const minRequired = Math.floor(active.length * 0.7) + 1;
@@ -240,8 +240,24 @@ const rawTarget = Number(config?.targetPercent);
     const start = Number(old.startMinute);
     const duration = Number(company?.duration) || 30;
     const end = start + duration;
+
+
+    // if (!shortlist || !company || !room || !companyDays(company).includes(day)) continue;
+    // if (start < DAY_START || end > DAY_END) continue;
     if (!shortlist || !company || !room || !companyDays(company).includes(day)) continue;
-    if (start < DAY_START || end > DAY_END) continue;
+
+    const companyStart = Math.max(
+      DAY_START,
+      Number(company.startMinute) || DAY_START
+    );
+
+    const companyEnd = Math.min(
+      DAY_END,
+      Number(company.endMinute) || DAY_END
+    );
+
+    if (start < companyStart || end > companyEnd) continue;
+
     if (panel < 1 || panel > Math.min(8, Number(company.panels) || 1)) continue;
     if ((company.blockedPanels || []).includes(panel)) continue;
     if (!studentFree(sid, day, start, end) || !panelFree(cid, panel, day, start, end)) continue;
@@ -305,53 +321,53 @@ const rawTarget = Number(config?.targetPercent);
 
     const shortlist = candidates[0];
 
-if (!shortlist) continue;
+    if (!shortlist) continue;
 
-if (
-  !panelFree(
-    slot.companyId,
-    slot.panel,
-    slot.day,
-    slot.start,
-    slot.end
-  )
-) continue;
+    if (
+      !panelFree(
+        slot.companyId,
+        slot.panel,
+        slot.day,
+        slot.start,
+        slot.end
+      )
+    ) continue;
 
-if (
-  !roomCanHost(
-    room,
-    slot.day,
-    slot.start,
-    slot.end,
-    slot.companyId,
-    slot.panel
-  )
-) continue;
+    if (
+      !roomCanHost(
+        room,
+        slot.day,
+        slot.start,
+        slot.end,
+        slot.companyId,
+        slot.panel
+      )
+    ) continue;
 
-panelRoom.set(
-  `${slot.day}-${slot.companyId}-${slot.panel}`,
-  room
-);
+    panelRoom.set(
+      `${slot.day}-${slot.companyId}-${slot.panel}`,
+      room
+    );
 
-const replacement = book(
-  shortlist,
-  company,
-  room,
-  slot.day,
-  slot.panel,
-  slot.start
-);
+    const replacement = book(
+      shortlist,
+      company,
+      room,
+      slot.day,
+      slot.panel,
+      slot.start
+    );
 
-replacementAssignments.push({
-  studentId: replacement.studentId,
-  companyId: replacement.companyId,
-  roomId: replacement.roomId,
-  day: replacement.day,
-  startMinute: replacement.startMinute,
-  endMinute: replacement.endMinute,
-  panel: replacement.panel,
-  replacedStudentId: slot.studentId
-});
+    replacementAssignments.push({
+      studentId: replacement.studentId,
+      companyId: replacement.companyId,
+      roomId: replacement.roomId,
+      day: replacement.day,
+      startMinute: replacement.startMinute,
+      endMinute: replacement.endMinute,
+      panel: replacement.panel,
+      replacedStudentId: slot.studentId
+    });
   }
 
   // Build every real interview slot from 09:00 through 17:00. The next slot
@@ -362,13 +378,47 @@ replacementAssignments.push({
     const duration = Math.max(15, Number(company.duration) || 30);
     const panels = Array.from({ length: Math.min(8, Number(company.panels) || 1) }, (_, i) => i + 1)
       .filter((p) => !(company.blockedPanels || []).includes(p));
+
+
+    // for (const day of companyDays(company)) {
+    //   for (const panel of panels) {
+    //     for (let start = DAY_START; start + duration <= DAY_END; start += duration) {
+    //       slots.push({ company, companyId: cid, day, panel, start, end: start + duration });
+    //     }
+    //   }
+    // }
     for (const day of companyDays(company)) {
+      const companyStart = Math.max(
+        DAY_START,
+        Number(company.startMinute) || DAY_START
+      );
+
+      const companyEnd = Math.min(
+        DAY_END,
+        Number(company.endMinute) || DAY_END
+      );
+
+      if (companyStart >= companyEnd) continue;
+
       for (const panel of panels) {
-        for (let start = DAY_START; start + duration <= DAY_END; start += duration) {
-          slots.push({ company, companyId: cid, day, panel, start, end: start + duration });
+        for (
+          let start = companyStart;
+          start + duration <= companyEnd;
+          start += duration
+        ) {
+          slots.push({
+            company,
+            companyId: cid,
+            day,
+            panel,
+            start,
+            end: start + duration
+          });
         }
       }
     }
+
+
   }
 
   // Process all four days. Day 1 intentionally favors mass recruiters, while
@@ -441,7 +491,7 @@ replacementAssignments.push({
   // target to the full active queue so newly available capacity is consumed.
   for (const slot of slots) {
     if (scheduled.length >= targetCount) break;
-    const underTargetDay = [1,2,3,4].some((d) => (dayCounts.get(d) || 0) < (dayTarget.get(d) || 1));
+    const underTargetDay = [1, 2, 3, 4].some((d) => (dayCounts.get(d) || 0) < (dayTarget.get(d) || 1));
     if (underTargetDay && (dayCounts.get(slot.day) || 0) >= (dayTarget.get(slot.day) || 1)) continue;
     const choices = shuffled(byCompany.get(slot.companyId) || [])
       .filter((x) => !scheduledPairs.has(`${idOf(x.studentId)}-${slot.companyId}`));
@@ -475,12 +525,12 @@ replacementAssignments.push({
 
   // return { scheduled, unscheduled, targetCount, targetPercent };
   return {
-  scheduled,
-  unscheduled,
-  targetCount,
-  targetPercent,
-  replacementAssignments
-};
+    scheduled,
+    unscheduled,
+    targetCount,
+    targetPercent,
+    replacementAssignments
+  };
 }
 
 
@@ -616,15 +666,58 @@ async function roomTargetedReplan({ roomId = null, affected = [], recovery = fal
       for (const room of availableRooms) {
         exactFirst.push({ room, day: Number(old.day), panel: Number(old.panel), start: Number(old.startMinute) });
       }
+
+
+      // for (const day of companyDays(company)) {
+      //   for (let panel = 1; panel <= Math.min(8, Number(company.panels) || 1); panel++) {
+      //     if ((company.blockedPanels || []).includes(panel)) continue;
+      //     for (let start = DAY_START; start + (Number(company.duration) || 30) <= DAY_END; start += Number(company.duration) || 30) {
+      //       if (day === Number(old.day) && panel === Number(old.panel) && start === Number(old.startMinute)) continue;
+      //       rest.push({ day, panel, start });
+      //     }
+      //   }
+      // }
       for (const day of companyDays(company)) {
-        for (let panel = 1; panel <= Math.min(8, Number(company.panels) || 1); panel++) {
+        const duration = Math.max(15, Number(company.duration) || 30);
+
+        const companyStart = Math.max(
+          DAY_START,
+          Number(company.startMinute) || DAY_START
+        );
+
+        const companyEnd = Math.min(
+          DAY_END,
+          Number(company.endMinute) || DAY_END
+        );
+
+        if (companyStart >= companyEnd) continue;
+
+        for (
+          let panel = 1;
+          panel <= Math.min(8, Number(company.panels) || 1);
+          panel++
+        ) {
           if ((company.blockedPanels || []).includes(panel)) continue;
-          for (let start = DAY_START; start + (Number(company.duration) || 30) <= DAY_END; start += Number(company.duration) || 30) {
-            if (day === Number(old.day) && panel === Number(old.panel) && start === Number(old.startMinute)) continue;
+
+          for (
+            let start = companyStart;
+            start + duration <= companyEnd;
+            start += duration
+          ) {
+            if (
+              day === Number(old.day) &&
+              panel === Number(old.panel) &&
+              start === Number(old.startMinute)
+            ) continue;
+
             rest.push({ day, panel, start });
           }
         }
       }
+
+
+
+
       const attempts = [...exactFirst, ...rest];
       for (const candidate of attempts) {
         const candidates = shuffled(availableRooms);
