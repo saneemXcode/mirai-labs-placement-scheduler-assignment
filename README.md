@@ -310,7 +310,7 @@ A local MongoDB installation can be used, or the application can be configured t
 
 ```bash
 git clone <your-github-repository-url>
-cd PlacementOS
+cd mirai-labs-placement-scheduler-assignment
 ```
 
 ---
@@ -320,6 +320,7 @@ cd PlacementOS
 ```bash
 cd server
 npm install
+npm install dotenv
 ```
 
 ---
@@ -626,7 +627,7 @@ BCA Graduate | Software & Web Development
 
 **Project:** Placement Week Scheduler
 
-**Organization:** Mirai Labs
+**Organization:** Zutawa Studios | Mirai Labs
 
 ---
 
