@@ -2051,7 +2051,7 @@ function Disruptions({
                 <span>
                   {item.affectedCount ?? 0} affected ·{" "}
                   {item.movedCount ?? 0} moved ·{" "}
-                  {item.unscheduledCount ?? 0} unscheduled
+                
                 </span>
 
                 <small>{item.summary}</small>
@@ -2973,12 +2973,12 @@ function Result({ result }) {
             : "Cannot reschedule"}
         </span>
 
-        {/* <span>
+         <span>
           <b>
             {result?.scheduledBefore ?? "—"} →{" "}
             {result?.scheduledAfter ?? "—"}
           </b>
-          Scheduled
+         Total Scheduled
         </span>
 
         <span>
@@ -2988,8 +2988,8 @@ function Result({ result }) {
               result?.unscheduledCount ??
               "—"}
           </b>
-          Unscheduled
-        </span> */}
+         Total Unscheduled
+        </span> 
       </div>
 
       <div className="detailLog">
