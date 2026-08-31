@@ -193,7 +193,7 @@ Companies can be prioritized during scheduling so that higher-priority recruitin
 
 ### Schedule Target
 
-The scheduling configuration supports a target scheduling range, with the current scheduler configured to operate within approximately **70%–80%** of active shortlisted interview demand during normal generation, subject to actual scheduling feasibility and available capacity.
+The scheduling configuration supports a target scheduling range, with the current scheduler configured to operate within approximately **60%–70%** of active shortlisted interview demand during normal generation, subject to actual scheduling feasibility and available capacity.
 
 The final scheduled count may differ from the theoretical target when hard constraints prevent additional interviews from being placed.
 
